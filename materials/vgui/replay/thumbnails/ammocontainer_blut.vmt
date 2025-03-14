@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/ammocontainer_blut"
+	"$translucent" 1
+}

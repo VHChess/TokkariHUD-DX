@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/class_sel_sm_pyro_inactive"
+	"$translucent" 1
+}

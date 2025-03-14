@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+    "$basetexture" "vgui/replay/thumbnails/class_engi_dudv"
+	"$translucent" 1
+	"$ignorez" 1
+
+}

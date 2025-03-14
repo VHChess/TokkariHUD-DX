@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/color_panel_red_more_opaque2"
+	"$translucent" 1
+}

@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/healthcontainer_redt"
+	"$translucent" 1
+}

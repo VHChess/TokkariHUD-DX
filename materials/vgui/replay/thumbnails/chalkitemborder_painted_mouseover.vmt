@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/chalkitemborder_painted_mouseover"
+	"$translucent" 1
+}

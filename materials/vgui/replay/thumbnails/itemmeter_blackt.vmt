@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/itemmeter_blackt"
+	"$translucent" 1
+}

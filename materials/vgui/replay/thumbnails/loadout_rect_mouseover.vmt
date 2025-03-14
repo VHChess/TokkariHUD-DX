@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/loadout_rect_mouseover"
+	"$translucent" 1
+}

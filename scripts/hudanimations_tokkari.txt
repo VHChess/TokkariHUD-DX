@@ -1,0 +1,85 @@
+//tokkarihud-specific animations
+
+//Health Bonus Pulse
+event HudHealthBonusPulse
+{
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
+	Animate PlayerStatusHealthValue			fgcolor 	"80 200 120 255"	Linear	0.0	0.0
+
+	RunEvent HudHealthBonusPulseLoop	0.4
+}
+// call to loop HudHealthBonusPulse
+event HudHealthBonusPulseLoop
+{
+	RunEvent HudHealthBonusPulse 0.0
+}
+
+event HudHealthBonusPulseStop
+{
+	StopEvent HudHealthBonusPulse 0.0
+	StopEvent HudHealthBonusPulseLoop 0.0
+	Animate	  PlayerStatusHealthValue 		fgcolor		"TanLight"	Linear 0.0 0.0
+}
+
+//===========================================
+//Health Dying Pulse
+event HudHealthDyingPulse
+{
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
+	Animate PlayerStatusHealthValue			fgcolor		"192 28 0 255"	Linear 0.0 0.0
+	
+	
+	RunEvent HudHealthDyingPulseLoop	0.25
+}
+//================================================
+
+// Flash the medic charge hud when we have full charge
+event HudMedicCharged
+{
+	Animate	ChargeLabel 	FgColor		"80 200 120 255"		Linear 0.0 0.1
+	Animate	ChargeLabel 	FgColor		"25 117 55 255"		Linear 0.3 0.4
+	
+	Animate	ChargeMeter 	FgColor		"80 200 120 255"		Linear 0.0 0.1
+	Animate	ChargeMeter 	FgColor		"25 117 55 255"		Linear 0.3 0.4
+
+	RunEvent HudMedicChargedLoop	0.6
+}
+// call to loop HudHealthBonusPulse
+event HudMedicChargedLoop
+{
+	RunEvent HudMedicCharged 0.0
+}
+event HudMedicChargedStop
+{
+	StopEvent HudMedicCharged 0.0
+	StopEvent HudMedicChargedLoop 0.0
+	
+	Animate	ChargeLabel 	FgColor		"80 200 120 255"		Linear 0.0 0.0001
+	Animate	ChargeMeter 	FgColor		"80 200 120 255"		Linear 0.0 0.0001
+}
+
+//move tournament team name panel down
+event HudTournamentSetupPanelOpen
+{
+	Animate HudTournamentSetup			Position	"c-90 -70"	Linear 0.0 0.001
+	Animate HudTournamentSetup			Position	"c-90 105"	Spline 0.001 0.2
+}
+
+event HudTournamentSetupPanelClose
+{
+	Animate HudTournamentSetup			Position	"c-90 70"	Linear 0.0 0.001
+	Animate HudTournamentSetup			Position	"c-90 -70"	Spline 0.001 0.2
+}
+
+
+
+
+//prevent chat from moving for 0 reason
+event CompetitiveGame_LowerChatWindow
+{}
+event CompetitiveGame_RestoreChatWindow
+{}
+event HudTournament_MoveChatWindow
+{}
