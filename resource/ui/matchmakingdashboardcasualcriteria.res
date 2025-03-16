@@ -226,6 +226,22 @@
 		}
 	}	
 
+	"MenuBoxBG2"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"MenuBoxBG2"
+		"xpos"			"529"
+		"ypos"			"103"
+		"zpos"			"0"
+		"wide"			"313"
+		"tall"			"347"
+		"visible"		"1"
+		"pinCorner"		"0"
+		"autoResize"	"0"
+		"border"		"InnerShadowBorder2"
+		"PaintBackgroundType"	"2"
+	}
+
 	"QueueButton"
 	{
 		"ControlName"	"CExButton"
@@ -251,7 +267,7 @@
 		"keyboardinputenabled"	"0"
 		"actionsignallevel"	"1"
 
-		"sound_depressed"	"ui/casualqueue.mp3"
+		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"border_default"	"MainMenuButtonDefault"

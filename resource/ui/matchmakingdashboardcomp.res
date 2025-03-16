@@ -259,6 +259,22 @@
 		"mouseinputenabled"	"0"
 	}	
 
+	"MenuBoxBG2"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"MenuBoxBG2"
+		"xpos"			"600"
+		"ypos"			"103"
+		"zpos"			"0"
+		"wide"			"250"
+		"tall"			"347"
+		"visible"		"1"
+		"pinCorner"		"0"
+		"autoResize"	"0"
+		"border"		"InnerShadowBorder2"
+		"PaintBackgroundType"	"2"
+	}
+
 	"QueueButton"
 	{
 		"ControlName"	"CExButton"

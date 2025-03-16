@@ -253,7 +253,7 @@
 		"tall"			"1000"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"border"		"InnerShadowBorder"
+		"border"		"InnerShadowBorder2"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 	}
@@ -271,7 +271,7 @@
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 
-		"border"		"InnerShadowBorder"
+		"border"		"InnerShadowBorder2"
 
 		"pinCorner"		"2"
 		"autoResize"	"1"

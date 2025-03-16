@@ -317,6 +317,8 @@
 		}
 	}
 
+	
+
 	"PracticeGroupBox"
 	{
 		//"ControlName"	"EditablePanel"

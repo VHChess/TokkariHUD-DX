@@ -666,9 +666,1575 @@
 		"PaintBackgroundType"	"2"
 	}
 	
+	"ADContainerTest"
+	{
+		"ControlName"	"CCyclingAdContainerPanel"
+		"xpos"			"c220"
+		"ypos"			"310"
+		"zpos"			"0"
+		"wide"			"188"
+		"tall"			"70"
+		"visible"		"1"
+		"bgcolor_override"		"0 0 0 0"
+
+		"items"
+		{
+			"0"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"15"
+
+				"Background"
+				{
+					"wide"		"0"
+				}
+				
+				"ClassTitle1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ClassTitle1"
+					"font"			"HudFontSmallestBold"
+					"labelText"		"Spy"
+					"textAlignment"	"center"
+					"xpos"			"18"
+					"ypos"			"0"
+					"zpos"			"20"
+					"wide"			"70"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"TanLight"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				"ShotLabel1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ShotLabel1"
+					"font"			"HudFontSmallest"
+					"labelText"		"Why don't you give him a shot?"
+					"textAlignment"	"center"
+					"xpos"			"42"
+					"ypos"			"13"
+					"zpos"			"20"
+					"wide"			"140"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"TanDark"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				"BeatThisLabel1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"BeatThisLabel1"
+					"font"			"FontStorePrice"
+					"labelText"		"Beat This:"
+					"textAlignment"	"center"
+					"xpos"			"32"
+					"ypos"			"35"
+					"zpos"			"20"
+					"wide"			"70"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"145 73 59 255"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				"ChallengeLabel1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ChallengeLabel1"
+					"font"			"ControlPointTimer"
+					"labelText"		"35 points as a Spy"
+					"textAlignment"	"center"
+					"xpos"			"59"
+					"ypos"			"35"
+					"zpos"			"20"
+					"wide"			"140"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"145 73 59 255"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				"ClassImage1"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"ClassImage1"
+					"xpos"			"0"
+					"ypos"			"-25"
+					"wide"			"45"
+					"tall"			"95"
+					"visible"		"1"
+					"enabled"		"1"
+					"image" 		"replay/thumbnails/class_sel_sm_spy_blu"
+					"scaleImage"	"1"
+					"mouseinputenabled"	"0"
+				}	
+				
+				"BuyButton"
+				{
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"20"
+					"wide"			"0"
+					"tall"			"0"
+					"autoResize"	"0"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+					"tabPosition"	"0"
+					"labelText"		"#TF_Quickplay_PlayNow"
+					"font"			"HudFontSmallBold"
+					"textAlignment"	"center"
+					"textinsetx"	"50"
+					"dulltext"		"0"
+					"brighttext"	"0"
+					"Command"		"url https://comfig.app/quickplay/?autostart=1&gm=any&autoclose=1"
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+			
+					"border_default"	"MainMenuButtonDefault"
+					"border_armed"		"MainMenuButtonArmed"
+					"paintbackground"	"0"
+					"defaultFgColor_override" "46 43 42 255"
+					"armedFgColor_override" "235 226 202 255"
+					"depressedFgColor_override" "46 43 42 255"
+				}
+				
+				"ChallengeDescription1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ChallengeDescription1"
+					"font"			"HudFontSmallishBold"
+					"labelText"		"1/8"
+					"textAlignment"	"center"
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"20"
+					"wide"			"450"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"TanDark"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				
+				
+				"ItemIcon"
+				{
+					"wide"		"0"
+				}
+
+				"ItemName"
+				{
+					"xpos"		"r0"
+				}
+
+				
+
+				"ScrollableItemText"
+				{
+					"wide"		"0"
+				}
+			}
+			"1"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"15"
+
+				"Background"
+				{
+					"wide"		"0"
+				}
+				
+				"ClassTitle1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ClassTitle1"
+					"font"			"HudFontSmallestBold"
+					"labelText"		"Pyro"
+					"textAlignment"	"center"
+					"xpos"			"22"
+					"ypos"			"0"
+					"zpos"			"20"
+					"wide"			"70"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"TanLight"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				"ShotLabel1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ShotLabel1"
+					"font"			"HudFontSmallest"
+					"labelText"		"Why don't you give her a shot?"
+					"textAlignment"	"center"
+					"xpos"			"42"
+					"ypos"			"13"
+					"zpos"			"20"
+					"wide"			"140"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"TanDark"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				"BeatThisLabel1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"BeatThisLabel1"
+					"font"			"FontStorePrice"
+					"labelText"		"Beat This:"
+					"textAlignment"	"center"
+					"xpos"			"32"
+					"ypos"			"35"
+					"zpos"			"20"
+					"wide"			"70"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"145 73 59 255"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				"ChallengeLabel1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ChallengeLabel1"
+					"font"			"FontStoreOriginalPrice"
+					"labelText"		"Extinguish 3 teammates in 
+					one life"
+					"textAlignment"	"center"
+					"xpos"			"74"
+					"ypos"			"39"
+					"zpos"			"20"
+					"wide"			"140"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"145 73 59 255"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				"ClassImage1"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"ClassImage1"
+					"xpos"			"0"
+					"ypos"			"-25"
+					"wide"			"45"
+					"tall"			"95"
+					"visible"		"1"
+					"enabled"		"1"
+					"image" 		"replay/thumbnails/class_sel_sm_pyro_blu"
+					"scaleImage"	"1"
+					"mouseinputenabled"	"0"
+				}	
+				
+				"BuyButton"
+				{
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"20"
+					"wide"			"0"
+					"tall"			"0"
+					"autoResize"	"0"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+					"tabPosition"	"0"
+					"labelText"		"#TF_Quickplay_PlayNow"
+					"font"			"HudFontSmallBold"
+					"textAlignment"	"center"
+					"textinsetx"	"50"
+					"dulltext"		"0"
+					"brighttext"	"0"
+					"Command"		"url https://comfig.app/quickplay/?autostart=1&gm=any&autoclose=1"
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+			
+					"border_default"	"MainMenuButtonDefault"
+					"border_armed"		"MainMenuButtonArmed"
+					"paintbackground"	"0"
+					"defaultFgColor_override" "46 43 42 255"
+					"armedFgColor_override" "235 226 202 255"
+					"depressedFgColor_override" "46 43 42 255"
+				}
+				
+				"ChallengeDescription1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ChallengeDescription1"
+					"font"			"HudFontSmallishBold"
+					"labelText"		"1/8"
+					"textAlignment"	"center"
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"20"
+					"wide"			"450"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"TanDark"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				
+				
+				"ItemIcon"
+				{
+					"wide"		"0"
+				}
+
+				"ItemName"
+				{
+					"xpos"		"r0"
+				}
+
+				
+
+				"ScrollableItemText"
+				{
+					"wide"		"0"
+				}
+			}
+			"2"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"15"
+
+				"Background"
+				{
+					"wide"		"0"
+				}
+				
+				"ClassTitle1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ClassTitle1"
+					"font"			"HudFontSmallestBold"
+					"labelText"		"Scout"
+					"textAlignment"	"center"
+					"xpos"			"25"
+					"ypos"			"0"
+					"zpos"			"20"
+					"wide"			"70"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"TanLight"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				"ShotLabel1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ShotLabel1"
+					"font"			"HudFontSmallest"
+					"labelText"		"Why don't you give him a shot?"
+					"textAlignment"	"center"
+					"xpos"			"42"
+					"ypos"			"13"
+					"zpos"			"20"
+					"wide"			"140"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"TanDark"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				"BeatThisLabel1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"BeatThisLabel1"
+					"font"			"FontStorePrice"
+					"labelText"		"Beat This:"
+					"textAlignment"	"center"
+					"xpos"			"32"
+					"ypos"			"35"
+					"zpos"			"20"
+					"wide"			"70"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"145 73 59 255"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				"ChallengeLabel1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ChallengeLabel1"
+					"font"			"FontStoreOriginalPrice"
+					"labelText"		"Destroy an enemy's 
+					teleporter"
+					"textAlignment"	"center"
+					"xpos"			"63"
+					"ypos"			"39"
+					"zpos"			"20"
+					"wide"			"140"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"145 73 59 255"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				"ClassImage1"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"ClassImage1"
+					"xpos"			"0"
+					"ypos"			"-25"
+					"wide"			"45"
+					"tall"			"95"
+					"visible"		"1"
+					"enabled"		"1"
+					"image" 		"replay/thumbnails/class_sel_sm_scout_blu"
+					"scaleImage"	"1"
+					"mouseinputenabled"	"0"
+				}	
+				
+				"BuyButton"
+				{
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"20"
+					"wide"			"0"
+					"tall"			"0"
+					"autoResize"	"0"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+					"tabPosition"	"0"
+					"labelText"		"#TF_Quickplay_PlayNow"
+					"font"			"HudFontSmallBold"
+					"textAlignment"	"center"
+					"textinsetx"	"50"
+					"dulltext"		"0"
+					"brighttext"	"0"
+					"Command"		"url https://comfig.app/quickplay/?autostart=1&gm=any&autoclose=1"
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+			
+					"border_default"	"MainMenuButtonDefault"
+					"border_armed"		"MainMenuButtonArmed"
+					"paintbackground"	"0"
+					"defaultFgColor_override" "46 43 42 255"
+					"armedFgColor_override" "235 226 202 255"
+					"depressedFgColor_override" "46 43 42 255"
+				}
+				
+				"ChallengeDescription1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ChallengeDescription1"
+					"font"			"HudFontSmallishBold"
+					"labelText"		"1/8"
+					"textAlignment"	"center"
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"20"
+					"wide"			"450"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"TanDark"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				
+				
+				"ItemIcon"
+				{
+					"wide"		"0"
+				}
+
+				"ItemName"
+				{
+					"xpos"		"r0"
+				}
+
+				
+
+				"ScrollableItemText"
+				{
+					"wide"		"0"
+				}
+			}
+			"3"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"15"
+
+				"Background"
+				{
+					"wide"		"0"
+				}
+				
+				"ClassTitle1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ClassTitle1"
+					"font"			"HudFontSmallestBold"
+					"labelText"		"Engineer"
+					"textAlignment"	"center"
+					"xpos"			"32"
+					"ypos"			"0"
+					"zpos"			"20"
+					"wide"			"70"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"TanLight"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				"ShotLabel1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ShotLabel1"
+					"font"			"HudFontSmallest"
+					"labelText"		"Why don't you give him a shot?"
+					"textAlignment"	"center"
+					"xpos"			"42"
+					"ypos"			"13"
+					"zpos"			"20"
+					"wide"			"140"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"TanDark"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				"BeatThisLabel1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"BeatThisLabel1"
+					"font"			"FontStorePrice"
+					"labelText"		"Beat This:"
+					"textAlignment"	"center"
+					"xpos"			"32"
+					"ypos"			"35"
+					"zpos"			"20"
+					"wide"			"70"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"145 73 59 255"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				"ChallengeLabel1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ChallengeLabel1"
+					"font"			"FontStoreOriginalPrice"
+					"labelText"		"Reach 3000 healing"
+					"textAlignment"	"center"
+					"xpos"			"58"
+					"ypos"			"35"
+					"zpos"			"20"
+					"wide"			"140"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"145 73 59 255"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				"ClassImage1"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"ClassImage1"
+					"xpos"			"0"
+					"ypos"			"-25"
+					"wide"			"45"
+					"tall"			"95"
+					"visible"		"1"
+					"enabled"		"1"
+					"image" 		"replay/thumbnails/class_sel_sm_engineer_blu"
+					"scaleImage"	"1"
+					"mouseinputenabled"	"0"
+				}	
+				
+				"BuyButton"
+				{
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"20"
+					"wide"			"0"
+					"tall"			"0"
+					"autoResize"	"0"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+					"tabPosition"	"0"
+					"labelText"		"#TF_Quickplay_PlayNow"
+					"font"			"HudFontSmallBold"
+					"textAlignment"	"center"
+					"textinsetx"	"50"
+					"dulltext"		"0"
+					"brighttext"	"0"
+					"Command"		"url https://comfig.app/quickplay/?autostart=1&gm=any&autoclose=1"
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+			
+					"border_default"	"MainMenuButtonDefault"
+					"border_armed"		"MainMenuButtonArmed"
+					"paintbackground"	"0"
+					"defaultFgColor_override" "46 43 42 255"
+					"armedFgColor_override" "235 226 202 255"
+					"depressedFgColor_override" "46 43 42 255"
+				}
+				
+				"ChallengeDescription1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ChallengeDescription1"
+					"font"			"HudFontSmallishBold"
+					"labelText"		"1/8"
+					"textAlignment"	"center"
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"20"
+					"wide"			"450"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"TanDark"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				
+				
+				"ItemIcon"
+				{
+					"wide"		"0"
+				}
+
+				"ItemName"
+				{
+					"xpos"		"r0"
+				}
+
+				
+
+				"ScrollableItemText"
+				{
+					"wide"		"0"
+				}
+			}
+			"4"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"15"
+
+				"Background"
+				{
+					"wide"		"0"
+				}
+				
+				"ClassTitle1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ClassTitle1"
+					"font"			"HudFontSmallestBold"
+					"labelText"		"Sniper"
+					"textAlignment"	"center"
+					"xpos"			"25"
+					"ypos"			"0"
+					"zpos"			"20"
+					"wide"			"70"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"TanLight"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				"ShotLabel1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ShotLabel1"
+					"font"			"HudFontSmallest"
+					"labelText"		"Why don't you give him a shot?"
+					"textAlignment"	"center"
+					"xpos"			"42"
+					"ypos"			"13"
+					"zpos"			"20"
+					"wide"			"140"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"TanDark"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				"BeatThisLabel1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"BeatThisLabel1"
+					"font"			"FontStorePrice"
+					"labelText"		"Beat This:"
+					"textAlignment"	"center"
+					"xpos"			"32"
+					"ypos"			"35"
+					"zpos"			"20"
+					"wide"			"70"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"145 73 59 255"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				"ChallengeLabel1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ChallengeLabel1"
+					"font"			"FontStoreOriginalPrice"
+					"labelText"		"Track a spy with an SMG
+					or Jarate"
+					"textAlignment"	"center"
+					"xpos"			"69"
+					"ypos"			"39"
+					"zpos"			"20"
+					"wide"			"140"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"145 73 59 255"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				"ClassImage1"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"ClassImage1"
+					"xpos"			"0"
+					"ypos"			"-23"
+					"wide"			"42"
+					"tall"			"93"
+					"visible"		"1"
+					"enabled"		"1"
+					"image" 		"replay/thumbnails/class_sel_sm_sniper_blu"
+					"scaleImage"	"1"
+					"mouseinputenabled"	"0"
+				}	
+				
+				"BuyButton"
+				{
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"20"
+					"wide"			"0"
+					"tall"			"0"
+					"autoResize"	"0"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+					"tabPosition"	"0"
+					"labelText"		"#TF_Quickplay_PlayNow"
+					"font"			"HudFontSmallBold"
+					"textAlignment"	"center"
+					"textinsetx"	"50"
+					"dulltext"		"0"
+					"brighttext"	"0"
+					"Command"		"url https://comfig.app/quickplay/?autostart=1&gm=any&autoclose=1"
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+			
+					"border_default"	"MainMenuButtonDefault"
+					"border_armed"		"MainMenuButtonArmed"
+					"paintbackground"	"0"
+					"defaultFgColor_override" "46 43 42 255"
+					"armedFgColor_override" "235 226 202 255"
+					"depressedFgColor_override" "46 43 42 255"
+				}
+				
+				"ChallengeDescription1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ChallengeDescription1"
+					"font"			"HudFontSmallishBold"
+					"labelText"		"1/8"
+					"textAlignment"	"center"
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"20"
+					"wide"			"450"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"TanDark"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				
+				
+				"ItemIcon"
+				{
+					"wide"		"0"
+				}
+
+				"ItemName"
+				{
+					"xpos"		"r0"
+				}
+
+				
+
+				"ScrollableItemText"
+				{
+					"wide"		"0"
+				}
+			}
+			"5"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"15"
+
+				"Background"
+				{
+					"wide"		"0"
+				}
+				
+				"ClassTitle1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ClassTitle1"
+					"font"			"HudFontSmallestBold"
+					"labelText"		"Soldier"
+					"textAlignment"	"center"
+					"xpos"			"29"
+					"ypos"			"0"
+					"zpos"			"20"
+					"wide"			"70"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"TanLight"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				"ShotLabel1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ShotLabel1"
+					"font"			"HudFontSmallest"
+					"labelText"		"Why don't you give him a shot?"
+					"textAlignment"	"center"
+					"xpos"			"42"
+					"ypos"			"13"
+					"zpos"			"20"
+					"wide"			"140"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"TanDark"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				"BeatThisLabel1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"BeatThisLabel1"
+					"font"			"FontStorePrice"
+					"labelText"		"Beat This:"
+					"textAlignment"	"center"
+					"xpos"			"32"
+					"ypos"			"35"
+					"zpos"			"20"
+					"wide"			"70"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"145 73 59 255"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				"ChallengeLabel1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ChallengeLabel1"
+					"font"			"FontStoreOriginalPrice"
+					"labelText"		"Kill an airborne target with
+					A rocket"
+					"textAlignment"	"center"
+					"xpos"			"73"
+					"ypos"			"39"
+					"zpos"			"20"
+					"wide"			"140"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"145 73 59 255"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				"ClassImage1"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"ClassImage1"
+					"xpos"			"0"
+					"ypos"			"-25"
+					"wide"			"45"
+					"tall"			"95"
+					"visible"		"1"
+					"enabled"		"1"
+					"image" 		"replay/thumbnails/class_sel_sm_soldier_blu"
+					"scaleImage"	"1"
+					"mouseinputenabled"	"0"
+				}	
+				
+				"BuyButton"
+				{
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"20"
+					"wide"			"0"
+					"tall"			"0"
+					"autoResize"	"0"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+					"tabPosition"	"0"
+					"labelText"		"#TF_Quickplay_PlayNow"
+					"font"			"HudFontSmallBold"
+					"textAlignment"	"center"
+					"textinsetx"	"50"
+					"dulltext"		"0"
+					"brighttext"	"0"
+					"Command"		"url https://comfig.app/quickplay/?autostart=1&gm=any&autoclose=1"
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+			
+					"border_default"	"MainMenuButtonDefault"
+					"border_armed"		"MainMenuButtonArmed"
+					"paintbackground"	"0"
+					"defaultFgColor_override" "46 43 42 255"
+					"armedFgColor_override" "235 226 202 255"
+					"depressedFgColor_override" "46 43 42 255"
+				}
+				
+				"ChallengeDescription1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ChallengeDescription1"
+					"font"			"HudFontSmallishBold"
+					"labelText"		"1/8"
+					"textAlignment"	"center"
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"20"
+					"wide"			"450"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"TanDark"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				
+				
+				"ItemIcon"
+				{
+					"wide"		"0"
+				}
+
+				"ItemName"
+				{
+					"xpos"		"r0"
+				}
+
+				
+
+				"ScrollableItemText"
+				{
+					"wide"		"0"
+				}
+			}
+			"6"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"15"
+
+				"Background"
+				{
+					"wide"		"0"
+				}
+				
+				"ClassTitle1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ClassTitle1"
+					"font"			"HudFontSmallestBold"
+					"labelText"		"Heavy"
+					"textAlignment"	"center"
+					"xpos"			"27"
+					"ypos"			"0"
+					"zpos"			"20"
+					"wide"			"70"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"TanLight"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				"ShotLabel1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ShotLabel1"
+					"font"			"HudFontSmallest"
+					"labelText"		"Why don't you give him a shot?"
+					"textAlignment"	"center"
+					"xpos"			"42"
+					"ypos"			"13"
+					"zpos"			"20"
+					"wide"			"140"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"TanDark"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				"BeatThisLabel1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"BeatThisLabel1"
+					"font"			"FontStorePrice"
+					"labelText"		"Beat This:"
+					"textAlignment"	"center"
+					"xpos"			"32"
+					"ypos"			"35"
+					"zpos"			"20"
+					"wide"			"70"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"145 73 59 255"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				"ChallengeLabel1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ChallengeLabel1"
+					"font"			"FontStoreOriginalPrice"
+					"labelText"		"Dominate 3 players as 
+					a Heavy"
+					"textAlignment"	"center"
+					"xpos"			"69"
+					"ypos"			"39"
+					"zpos"			"20"
+					"wide"			"140"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"145 73 59 255"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				"ClassImage1"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"ClassImage1"
+					"xpos"			"-3"
+					"ypos"			"-22"
+					"wide"			"40"
+					"tall"			"89"
+					"visible"		"1"
+					"enabled"		"1"
+					"image" 		"replay/thumbnails/class_sel_sm_heavy_blu"
+					"scaleImage"	"1"
+					"mouseinputenabled"	"0"
+				}	
+				
+				"BuyButton"
+				{
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"20"
+					"wide"			"0"
+					"tall"			"0"
+					"autoResize"	"0"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+					"tabPosition"	"0"
+					"labelText"		"#TF_Quickplay_PlayNow"
+					"font"			"HudFontSmallBold"
+					"textAlignment"	"center"
+					"textinsetx"	"50"
+					"dulltext"		"0"
+					"brighttext"	"0"
+					"Command"		"url https://comfig.app/quickplay/?autostart=1&gm=any&autoclose=1"
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+			
+					"border_default"	"MainMenuButtonDefault"
+					"border_armed"		"MainMenuButtonArmed"
+					"paintbackground"	"0"
+					"defaultFgColor_override" "46 43 42 255"
+					"armedFgColor_override" "235 226 202 255"
+					"depressedFgColor_override" "46 43 42 255"
+				}
+				
+				"ChallengeDescription1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ChallengeDescription1"
+					"font"			"HudFontSmallishBold"
+					"labelText"		"1/8"
+					"textAlignment"	"center"
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"20"
+					"wide"			"450"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"TanDark"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				
+				
+				"ItemIcon"
+				{
+					"wide"		"0"
+				}
+
+				"ItemName"
+				{
+					"xpos"		"r0"
+				}
+
+				
+
+				"ScrollableItemText"
+				{
+					"wide"		"0"
+				}
+			}
+			"7"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"15"
+
+				"Background"
+				{
+					"wide"		"0"
+				}
+				
+				"ClassTitle1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ClassTitle1"
+					"font"			"HudFontSmallestBold"
+					"labelText"		"Demoman"
+					"textAlignment"	"center"
+					"xpos"			"33"
+					"ypos"			"0"
+					"zpos"			"20"
+					"wide"			"70"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"TanLight"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				"ShotLabel1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ShotLabel1"
+					"font"			"HudFontSmallest"
+					"labelText"		"Why don't you give him a shot?"
+					"textAlignment"	"center"
+					"xpos"			"42"
+					"ypos"			"13"
+					"zpos"			"20"
+					"wide"			"140"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"TanDark"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				"BeatThisLabel1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"BeatThisLabel1"
+					"font"			"FontStorePrice"
+					"labelText"		"Beat This:"
+					"textAlignment"	"center"
+					"xpos"			"32"
+					"ypos"			"35"
+					"zpos"			"20"
+					"wide"			"70"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"145 73 59 255"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				"ChallengeLabel1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ChallengeLabel1"
+					"font"			"FontStoreOriginalPrice"
+					"labelText"		"Destroy 4 buildings in
+					a single life"
+					"textAlignment"	"center"
+					"xpos"			"68"
+					"ypos"			"39"
+					"zpos"			"20"
+					"wide"			"140"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"145 73 59 255"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				"ClassImage1"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"ClassImage1"
+					"xpos"			"0"
+					"ypos"			"-25"
+					"wide"			"45"
+					"tall"			"95"
+					"visible"		"1"
+					"enabled"		"1"
+					"image" 		"replay/thumbnails/class_sel_sm_demo_blu"
+					"scaleImage"	"1"
+					"mouseinputenabled"	"0"
+				}	
+				
+				"BuyButton"
+				{
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"20"
+					"wide"			"0"
+					"tall"			"0"
+					"autoResize"	"0"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+					"tabPosition"	"0"
+					"labelText"		"#TF_Quickplay_PlayNow"
+					"font"			"HudFontSmallBold"
+					"textAlignment"	"center"
+					"textinsetx"	"50"
+					"dulltext"		"0"
+					"brighttext"	"0"
+					"Command"		"url https://comfig.app/quickplay/?autostart=1&gm=any&autoclose=1"
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+			
+					"border_default"	"MainMenuButtonDefault"
+					"border_armed"		"MainMenuButtonArmed"
+					"paintbackground"	"0"
+					"defaultFgColor_override" "46 43 42 255"
+					"armedFgColor_override" "235 226 202 255"
+					"depressedFgColor_override" "46 43 42 255"
+				}
+				
+				"ChallengeDescription1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ChallengeDescription1"
+					"font"			"HudFontSmallishBold"
+					"labelText"		"1/8"
+					"textAlignment"	"center"
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"20"
+					"wide"			"450"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"TanDark"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				
+				
+				"ItemIcon"
+				{
+					"wide"		"0"
+				}
+
+				"ItemName"
+				{
+					"xpos"		"r0"
+				}
+
+				
+
+				"ScrollableItemText"
+				{
+					"wide"		"0"
+				}
+			}
+			"8"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"15"
+
+				"Background"
+				{
+					"wide"		"0"
+				}
+				
+				"ClassTitle1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ClassTitle1"
+					"font"			"HudFontSmallestBold"
+					"labelText"		"Medic"
+					"textAlignment"	"center"
+					"xpos"			"24"
+					"ypos"			"0"
+					"zpos"			"20"
+					"wide"			"70"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"TanLight"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				"ShotLabel1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ShotLabel1"
+					"font"			"HudFontSmallest"
+					"labelText"		"Why don't you give him a shot?"
+					"textAlignment"	"center"
+					"xpos"			"42"
+					"ypos"			"13"
+					"zpos"			"20"
+					"wide"			"140"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"TanDark"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				"BeatThisLabel1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"BeatThisLabel1"
+					"font"			"FontStorePrice"
+					"labelText"		"Beat This:"
+					"textAlignment"	"center"
+					"xpos"			"32"
+					"ypos"			"35"
+					"zpos"			"20"
+					"wide"			"70"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"145 73 59 255"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				"ChallengeLabel1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ChallengeLabel1"
+					"font"			"FontStoreOriginalPrice"
+					"labelText"		"Turn the tide in overtime
+					with an über"
+					"textAlignment"	"center"
+					"xpos"			"71"
+					"ypos"			"39"
+					"zpos"			"20"
+					"wide"			"140"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"145 73 59 255"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				"ClassImage1"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"ClassImage1"
+					"xpos"			"0"
+					"ypos"			"-25"
+					"wide"			"45"
+					"tall"			"95"
+					"visible"		"1"
+					"enabled"		"1"
+					"image" 		"replay/thumbnails/class_sel_sm_medic_blu"
+					"scaleImage"	"1"
+					"mouseinputenabled"	"0"
+				}	
+				
+				"BuyButton"
+				{
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"20"
+					"wide"			"0"
+					"tall"			"0"
+					"autoResize"	"0"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+					"tabPosition"	"0"
+					"labelText"		"#TF_Quickplay_PlayNow"
+					"font"			"HudFontSmallBold"
+					"textAlignment"	"center"
+					"textinsetx"	"50"
+					"dulltext"		"0"
+					"brighttext"	"0"
+					"Command"		"url https://comfig.app/quickplay/?autostart=1&gm=any&autoclose=1"
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+			
+					"border_default"	"MainMenuButtonDefault"
+					"border_armed"		"MainMenuButtonArmed"
+					"paintbackground"	"0"
+					"defaultFgColor_override" "46 43 42 255"
+					"armedFgColor_override" "235 226 202 255"
+					"depressedFgColor_override" "46 43 42 255"
+				}
+				
+				"ChallengeDescription1"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ChallengeDescription1"
+					"font"			"HudFontSmallishBold"
+					"labelText"		"1/8"
+					"textAlignment"	"center"
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"20"
+					"wide"			"450"
+					"tall"			"20"
+					"autoResize"	"1"
+					"fgcolor"		"TanDark"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+				}
+				
+				
+				
+				"ItemIcon"
+				{
+					"wide"		"0"
+				}
+
+				"ItemName"
+				{
+					"xpos"		"r0"
+				}
+
+				
+
+				"ScrollableItemText"
+				{
+					"wide"		"0"
+				}
+			}
+		}
+	}
+
 	
-	
-	
+	"ChallengeBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ChallengeBG"
+		"xpos"			"c220"
+		"ypos"			"310"
+		"zpos"			"-99"
+		"wide"			"190"
+		"tall"			"70"
+		"visible"		"1"
+		"pinCorner"		"0"
+		"autoResize"	"0"
+		"bgcolor_override"	"0 0 0 240"
+		"PaintBackgroundType"	"2"
+	}
 	
 	
 	
@@ -1843,7 +3409,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
 			"font"			"HudFontSmallestBold"
-			"labelText"		"(DX 1.1.1)"
+			"labelText"		"(DX 1.1.2)"
 			"textAlignment"	"west"
 			"xpos"			"800"
 			"ypos"			"457"
@@ -1929,7 +3495,7 @@
 			"mouseinputenabled"	"0"
 
 			"paintborder"	"1"
-			"border"		"InnerShadowBorder"
+			"border"		"InnerShadowBorderThin"
 		}
 
 		"SteamFriendsList"
@@ -2017,9 +3583,9 @@
 		"xpos"			"c160"
 		"ypos"			"320"
 		"zpos"			"-50"
-		"wide"			"270"
-		"tall"			"96"
-		"visible"		"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
 
 		"Background"
 		{
@@ -2358,52 +3924,13 @@
 		"zpos"			"-50"
 		"wide"			"289"
 		"tall"			"270"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image" 		"replay/thumbnails/storewindow"
 		"scaleImage"	"1"
 		"mouseinputenabled"	"0"
 	}	
 
-	"FeaturedLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"FeaturedLabel"
-			"font"			"HudFontSmallBold"
-			"labelText"		"Featured"
-			"textAlignment"	"west"
-			"xpos"			"c233"
-			"ypos"			"304"
-			"wide"			"f0"
-			"zpos"			"1"
-			"tall"			"30"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"textinsetx"	"0"
-			"fgcolor_override"	"TanLight"
-		}
-	
-	"FeaturedLabelShadow"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"FeaturedLabelShadow"
-			"font"			"HudFontSmallBold"
-			"labelText"		"Featured"
-			"textAlignment"	"west"
-			"xpos"			"c235"
-			"ypos"			"306"
-			"zpos"			"0"
-			"wide"			"f0"
-			"tall"			"30"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"textinsetx"	"0"
-			"fgcolor_override"	"Black"
-		}
 	
 	"SafeMode"
 	{

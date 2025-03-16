@@ -500,7 +500,7 @@ Scheme
 			"4"
 			{
 				"name"		"TF2 Professor"
-				"tall"		"20"
+				"tall"		"26"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
@@ -2403,7 +2403,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Professor"
-				"tall"		"10"
+				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -5658,12 +5658,24 @@ Scheme
 			"draw_corner_height" 	"7"	
 		}
 
-		InnerShadowBorder
+		InnerShadowBorder2
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
 			"image"					"inner_shadow_border"
+			"src_corner_height"		"5"				// pixels inside the image
+			"src_corner_width"		"5"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+
+		InnerShadowBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					""
 			"src_corner_height"		"5"				// pixels inside the image
 			"src_corner_width"		"5"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
