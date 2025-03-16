@@ -267,7 +267,7 @@
 		"keyboardinputenabled"	"0"
 		"actionsignallevel"	"1"
 
-		"sound_depressed"	"ui/casualqueue.mp3"
+		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"border_default"	"MainMenuButtonDefault"
