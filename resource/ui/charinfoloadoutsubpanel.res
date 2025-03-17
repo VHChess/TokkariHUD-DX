@@ -23,7 +23,7 @@
 		"selectlabely_onchanges"	"15"
 		
 		"class_ypos"				"100"
-		"class_xdelta"				"5"
+		"class_xdelta"				"-9"
 		"class_wide_min"			"80"
 		"class_wide_max"			"85"
 		"class_tall_min"			"87"
@@ -42,12 +42,12 @@
 		"xpos"			"0"
 		"ypos"			"-13"
 		"zpos"			"-4"
-		"wide"			"1000"
-		"tall"			"1000"
+		"wide"			"f0"
+		"tall"			"455"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/chalkboardbg"
-		"tileImage"		"1"
+		"scaleImage"		"1"
 	}				
 	
 	"scout"
@@ -282,7 +282,7 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowBackpackButton"
-		"xpos"				"c-270"
+		"xpos"				"c-210"
 		"ypos"				"217"
 		"zpos"				"6"
 		"wide"				"60"
@@ -328,7 +328,7 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowCraftingButton"
-		"xpos"				"c-160"
+		"xpos"				"c-123"
 		"ypos"				"217"
 		"zpos"				"6"
 		"wide"				"60"
@@ -420,7 +420,7 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowTradeButton"
-		"xpos"				"c200"
+		"xpos"				"c50"
 		"ypos"				"217"
 		"zpos"				"6"
 		"wide"				"60"
@@ -467,7 +467,7 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowPaintkitsButton"
-		"xpos"				"c100"
+		"xpos"				"c136"
 		"ypos"				"217"
 		"zpos"				"6"
 		"wide"				"60"
@@ -532,7 +532,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemsLabel"
-		"font"			"ChalkboardText"
+		"font"			"ItemFontAttribSmall"
 		"labelText"		"classname"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -545,7 +545,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"117 107 94 255"
-		"centerwrap"	"0"
+		"centerwrap"	"1"
 	}
 	
 	"NoSteamLabel"

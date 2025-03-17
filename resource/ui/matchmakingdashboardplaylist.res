@@ -8,7 +8,7 @@
 		"xpos"			"r0"
 		"ypos"			"-5"
 		"zpos"			"1001"
-		"wide"			"855"
+		"wide"			"f0"
 		"tall"			"1000"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
@@ -18,7 +18,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"Title"
-		"xpos"		"314"
+		"xpos"		"c-116"
 		"ypos"		"20"
 		"zpos"		"99"
 		"wide"		"f0"
@@ -49,7 +49,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BackButton"
-		"xpos"			"c-413"
+		"xpos"			"7"
 		"ypos"			"452"
 		"zpos"			"160"
 		"wide"			"90"

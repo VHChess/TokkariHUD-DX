@@ -31,7 +31,13 @@
 	}
 	
 	
-	
+	"AmbienceButton"
+    {
+        "label"                                                     ""
+        "command"                                                   "engine "
+        "OnlyAtMenu"                                                "0"
+        "tooltip"                                                   "Play Dustbowl Ambience"
+    }
 	
 	
 	"ServerBrowserTooltip"

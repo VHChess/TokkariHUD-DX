@@ -8,7 +8,7 @@
 		"xpos"			"r0"
 		"ypos"			"-5"
 		"zpos"			"1002"
-		"wide"			"855"
+		"wide"			"f0"
 		"tall"			"f-5"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
@@ -36,7 +36,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BackButton"
-		"xpos"			"c-413"
+		"xpos"			"7"
 		"ypos"			"452"
 		"zpos"			"160"
 		"wide"			"90"
@@ -81,26 +81,24 @@
 		}
 	}	
 
-	"CompDescription"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"CompDescription"
-			"font"			"HudFontSmall"
-			"labelText"		"Battle it out in a 6v6 Competitive Match."
-			"textAlignment"	"center"
-			"xpos"			"-261"
-			"ypos"			"26"
-			"zpos"			"160"
-			"wide"			"f0"
-			"tall"			"30"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"textinsetx"	"0"
-			"fgcolor_override"	"235 227 203 255"
-		}
-
+	"CasualDesc"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"CasualDesc"
+		"xpos"		"55"
+		"ypos"		"31"
+		"zpos"		"100"
+		"wide"		"f0"
+		"tall"		"20"
+		"proportionaltoparent"	"1"
+		"labeltext"		"Battle it out in a 6v6 Competitive Match."
+		"textAlignment"	"west"
+		"font"			"HudFontSmall"
+		"fgcolor_override"	"TanLight"
+		
+		"mouseinputenabled"	"0"
+	}
+	
 	"Title"
 	{
 		"ControlName"		"Label"
@@ -156,7 +154,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RankTooltipPanel"
-		"xpos"			"586"
+		"xpos"			"r20"
 		"ypos"			"40"
 		"zpos"			"1000"
 		"wide"			"8"
@@ -173,7 +171,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"FooterVertical"
-		"xpos"			"589"
+		"xpos"			"254"
 		"ypos"			"52"
 		"zpos"			"1000"
 		"wide"			"3"
@@ -184,14 +182,30 @@
 		"scaleImage"	"1"
 	}	
 
+	"CoverRank2"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"CoverRank2"
+		"xpos"			"-3"
+		"ypos"			"32"
+		"zpos"			"50"
+		"wide"			"260"
+		"tall"			"f0"
+		"visible"		"1"
+		"pinCorner"		"0"
+		"autoResize"	"0"
+		"bgcolor_override"	"Black"
+		"PaintBackgroundType"	"2"
+	}
+
 	"stats"
 	{
 		"fieldName"		"stats"
-		"xpos"			"594"
+		"xpos"			"-6"
 		"ypos"			"40"
 		"zpos"			"100"
-		"wide"			"305"
-		"tall"			"f80"
+		"wide"			"330"
+		"tall"			"f73"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -247,7 +261,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"Background"
-		"xpos"			"c-470"
+		"xpos"			"r600"
 		"ypos"			"52"
 		"zpos"			"0"
 		"wide"			"635"
@@ -263,10 +277,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MenuBoxBG2"
-		"xpos"			"600"
+		"xpos"			"2"
 		"ypos"			"103"
-		"zpos"			"0"
-		"wide"			"250"
+		"zpos"			"51"
+		"wide"			"245"
 		"tall"			"347"
 		"visible"		"1"
 		"pinCorner"		"0"
@@ -279,10 +293,10 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"QueueButton"
-		"xpos"			"589"
+		"xpos"			"r274"
 		"ypos"			"452"
 		"zpos"			"100"
-		"wide"			"264"
+		"wide"			"265"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -300,7 +314,7 @@
 		"keyboardinputenabled"	"0"
 		"actionsignallevel"	"1"
 
-		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_depressed"	"ui/casualqueue.mp3"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"border_default"	"MainMenuButtonDefault"

@@ -229,7 +229,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TokkariLogo"
-		"xpos"			"c-438"
+		"xpos"			"-8"
 		"ypos"			"0"
 		"zpos"			"-2"
 		"wide"			"493"
@@ -246,7 +246,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SealLogo"
-		"xpos"			"c-319"
+		"xpos"			"110"
 		"ypos"			"41"
 		"zpos"			"-2"
 		"wide"			"150"
@@ -263,7 +263,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PFPBackground"
-		"xpos"			"262"
+		"xpos"			"c-165"
 		"ypos"			"425"
 		"zpos"			"99"
 		"wide"			"57"
@@ -279,7 +279,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot0"
-			"xpos"			"266"
+			"xpos"			"c-161"
 			"ypos"			"427"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -513,7 +513,7 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
-		"xpos"			"c-224"
+		"xpos"			"c-196"
 		"ypos"			"400"
 		"zpos"			"1"
 		"wide"			"320"
@@ -669,7 +669,7 @@
 	"ADContainerTest"
 	{
 		"ControlName"	"CCyclingAdContainerPanel"
-		"xpos"			"c220"
+		"xpos"			"r208"
 		"ypos"			"310"
 		"zpos"			"0"
 		"wide"			"188"
@@ -2224,7 +2224,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ChallengeBG"
-		"xpos"			"c220"
+		"xpos"			"r208"
 		"ypos"			"310"
 		"zpos"			"-99"
 		"wide"			"190"
@@ -3390,10 +3390,10 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"HUDVersionShadow"
 			"font"			"HudFontSmallestBold"
-			"labelText"		"(DX 1.1.0)"
+			"labelText"		"(DX 1.2.0)"
 			"textAlignment"	"west"
-			"xpos"			"799"
-			"ypos"			"459"
+			"xpos"			"r51"
+			"ypos"			"396"
 			"wide"			"f0"
 			"tall"			"30"
 			"autoResize"	"0"
@@ -3409,10 +3409,10 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
 			"font"			"HudFontSmallestBold"
-			"labelText"		"(DX 1.1.2)"
+			"labelText"		"(DX 1.2.0)"
 			"textAlignment"	"west"
-			"xpos"			"800"
-			"ypos"			"457"
+			"xpos"			"r52"
+			"ypos"			"394"
 			"wide"			"f0"
 			"tall"			"30"
 			"autoResize"	"0"
@@ -3452,10 +3452,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"FriendsContainer"
-		"xpos"			"c-430"
+		"xpos"			"0"
 		"ypos"			"340"
 		"zpos"			"5"
-		"wide"			"250"
+		"wide"			"150"
 		"tall"			"150"
 		"visible"		"1"
 
@@ -3510,11 +3510,11 @@
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
-			"columns_count"	"2"
+			"columns_count"	"1"
 			"inset_x"		"10"
 			"inset_y"		"5"
-			"row_gap"		"5"
-			"column_gap"	"10"
+			"row_gap"		"2"
+			"column_gap"	"3"
 			"restrict_width"	"0"
 
 			"friendpanel_kv"
@@ -4274,7 +4274,7 @@
     {
         "ControlName"   "CExImageButton"
         "fieldName"     "DisconnectButton"
-		"xpos""c-356"
+		"xpos""71"
 		"ypos""347"
 		"zpos""9"
 		"wide""235"
@@ -4322,7 +4322,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"c-103"
+		"xpos"			"331"
 		"ypos"			"177"
 		"zpos"			"12"
 		"wide"			"25"
@@ -4390,7 +4390,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVote2"
-		"xpos"			"c-103"
+		"xpos"			"331"
 		"ypos"			"150"
 		"zpos"			"12"
 		"wide"			"25"
@@ -4531,7 +4531,7 @@
 		"ypos"			"420"
 		"zpos"			"-3"
 		"wide"			"f0"
-		"tall"			"60"
+		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"			"Black"
@@ -4556,7 +4556,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterSetupButton"
-		"xpos"			"c-356"
+		"xpos"			"71"
 		"ypos"			"117"
 		"zpos"			"2"
 		"wide"			"235"
@@ -4605,7 +4605,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"FakeFindAGameButton2"
-		"xpos"			"c-356"
+		"xpos"			"71"
 		"ypos"			"90"
 		"zpos"			"-4"
 		"wide"			"235"
@@ -4715,7 +4715,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"GeneralStoreButton"
-		"xpos"			"c-356"
+		"xpos"			"71"
 		"ypos"			"144"
 		"zpos"			"2"
 		"wide"			"235"
@@ -4764,7 +4764,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"AchievementsButtonM"
-		"xpos"			"c-356"
+		"xpos"			"71"
 		"ypos"			"171"
 		"zpos"			"2"
 		"wide"			"235"
@@ -4813,7 +4813,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"DevComButton"
-		"xpos"			"c-356"
+		"xpos"			"71"
 		"ypos"			"198"
 		"zpos"			"2"
 		"wide"			"235"
@@ -4863,7 +4863,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ReplayButtonM"
-		"xpos"			"c-356"
+		"xpos"			"71"
 		"ypos"			"225"
 		"zpos"			"2"
 		"wide"			"235"
@@ -4913,7 +4913,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingsButton"
-		"xpos"			"c-356"
+		"xpos"			"71"
 		"ypos"			"287"
 		"zpos"			"4"
 		"wide"			"235"
@@ -4963,7 +4963,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingsButton"
-		"xpos"			"c-356"
+		"xpos"			"71"
 		"ypos"			"313"
 		"zpos"			"4"
 		"wide"			"235"
@@ -5013,7 +5013,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ConsoleButton"
-		"xpos"			"c-356"
+		"xpos"			"71"
 		"ypos"			"257"
 		"zpos"			"4"
 		"wide"			"105"
@@ -5061,7 +5061,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ConsoleButton"
-		"xpos"			"c-227"
+		"xpos"			"201"
 		"ypos"			"257"
 		"zpos"			"4"
 		"wide"			"105"
@@ -5112,7 +5112,7 @@
     {
         "ControlName"   "CExImageButton"
         "fieldName"     "QuitButton"
-"xpos""c-356"
+"xpos""71"
 "ypos""347"
 "zpos""9"
 "wide""235"
@@ -5448,40 +5448,6 @@
 	}	
 
 
-	"SuperSecretAwesomeButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"SuperSecretAwesomeButton"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"4"
-		"wide"			"30"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		""
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"Command"		""
-
-		"navUp"			"VRModeButton"
-		"navLeft"		"AchievementsButton"
-		"navRight"		"CoachPlayersButton"
-
-		"sound_depressed"	"ui/dustbowlambience.mp3"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"NoBorder"
-		"PaintBackground"	"0"
-		
-		"image_drawcolor"	"235 226 202 255"
-		
-	}	
 
 	"HudReloadButton"
 		{
@@ -6139,12 +6105,79 @@
     }
 	
 	
+	"AmbienceButton"
+    {
+        "pin_to_sibling"                                            "bh_BottomPin11"
+        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"                                     "0"
+
+        "ControlName"                                               "EditablePanel"
+        "fieldname"                                                 "AmbienceButton"
+        "xpos"                                                      "0"
+        "ypos"                                                      "0"
+		"zpos"														"5"
+        "wide"                                                      "33"
+        "tall"                                                      "30"
+        "visible"                                                   "1"
+
+        "SubButton"
+        {
+            "ControlName"                                           "CExImageButton"
+            "fieldName"                                             "SubButton"
+            "xpos"                                                  "0"
+            "ypos"                                                  "0"
+            "wide"                                                  "33"
+            "tall"                                                  "30"
+            "autoResize"                                            "0"
+            "pinCorner"                                             "3"
+            "visible"                                               "1"
+            "enabled"                                               "1"
+            "tabPosition"                                           "0"
+            "textinsetx"                                            "100"
+            "use_proportional_insets"                               "1"
+            "font"                                                  "bh_Font12"
+            "textAlignment"                                         "west"
+            "dulltext"                                              "0"
+            "brighttext"                                            "0"
+            "default"                                               "1"
+			"sound_depressed"										"ui/dustbowlambience.mp3"
+            "sound_released"                                        "UI/buttonclickrelease.wav"
+
+            "textAlignment"                                         "Center"
+            "fillcolor"                                             "bh_gray"
+
+            "border_default"                                        "MainMenuButtonDefault"
+            "border_armed"                                          "MainMenuButtonArmed"
+            "paintbackground"                                       "0"
+            "defaultFgColor_override"                               "bh_white"
+            "armedFgColor_override"                                 "bh_red"
+            "image_drawcolor"                                       "46 43 42 255"
+            "image_armedcolor"                                      "235 226 202 255"
+
+            "SubImage"
+            {
+               
+					"ControlName"	"ImagePanel"
+					"fieldName"		"SubImage"
+					"xpos"			"2"
+					"ypos"			"1"
+					"zpos"			"20"
+					"wide"			"29"
+					"tall"			"29"
+					"visible"		"1"
+					"enabled"		"1"
+					"image"			"replay/thumbnails/glyph_sound"
+					"scaleImage"	"1"
+            }
+        }
+    }
+	
 	"bh_BottomPin"
     {
         "ControlName" "Label"
         "fieldName"   "bh_BottomPin"
-        "xpos"        "541"
-        "ypos"        "436"
+        "xpos"        "c150"
+        "ypos"        "422"
         "zpos"        "0"
         "wide"        "100"
         "tall"        "0"
@@ -6157,8 +6190,8 @@
     {
         "ControlName" "Label"
         "fieldName"   "bh_BottomPin2"
-        "xpos"        "571"
-        "ypos"        "436"
+        "xpos"        "c180"
+        "ypos"        "450"
         "zpos"        "0"
         "wide"        "100"
         "tall"        "0"
@@ -6171,8 +6204,8 @@
     {
         "ControlName" "Label"
         "fieldName"   "bh_BottomPin3"
-        "xpos"        "601"
-        "ypos"        "436"
+        "xpos"        "c180"
+        "ypos"        "422"
         "zpos"        "0"
         "wide"        "100"
         "tall"        "0"
@@ -6185,8 +6218,8 @@
     {
         "ControlName" "Label"
         "fieldName"   "bh_BottomPin4"
-        "xpos"        "631"
-        "ypos"        "436"
+        "xpos"        "c210"
+        "ypos"        "450"
         "zpos"        "0"
         "wide"        "100"
         "tall"        "0"
@@ -6199,8 +6232,8 @@
     {
         "ControlName" "Label"
         "fieldName"   "bh_BottomPin5"
-        "xpos"        "661"
-        "ypos"        "436"
+        "xpos"        "c210"
+        "ypos"        "422"
         "zpos"        "0"
         "wide"        "100"
         "tall"        "0"
@@ -6213,8 +6246,8 @@
     {
         "ControlName" "Label"
         "fieldName"   "bh_BottomPin6"
-        "xpos"        "691"
-        "ypos"        "436"
+        "xpos"        "c240"
+        "ypos"        "450"
         "zpos"        "0"
         "wide"        "100"
         "tall"        "0"
@@ -6227,8 +6260,8 @@
     {
         "ControlName" "Label"
         "fieldName"   "bh_BottomPin7"
-        "xpos"        "721"
-        "ypos"        "436"
+        "xpos"        "c240"
+        "ypos"        "422"
         "zpos"        "0"
         "wide"        "100"
         "tall"        "0"
@@ -6241,8 +6274,8 @@
     {
         "ControlName" "Label"
         "fieldName"   "bh_BottomPin8"
-        "xpos"        "751"
-        "ypos"        "436"
+        "xpos"        "c150"
+        "ypos"        "450"
         "zpos"        "0"
         "wide"        "100"
         "tall"        "0"
@@ -6255,8 +6288,8 @@
     {
         "ControlName" "Label"
         "fieldName"   "bh_BottomPin9"
-        "xpos"        "781"
-        "ypos"        "436"
+        "xpos"        "c270"
+        "ypos"        "422"
         "zpos"        "0"
         "wide"        "100"
         "tall"        "0"
@@ -6279,7 +6312,19 @@
         "bgcolor_override"  "0 0 0 0"
     }
 	
-
+	"bh_BottomPin11"
+    {
+        "ControlName" "Label"
+        "fieldName"   "bh_BottomPin11"
+        "xpos"        "c270"
+        "ypos"        "450"
+        "zpos"        "0"
+        "wide"        "100"
+        "tall"        "0"
+        "visible"     "1"
+        "enabled"     "1"
+        "bgcolor_override"  "0 0 0 0"
+    }
 
 	"ReplayButton"
 	{

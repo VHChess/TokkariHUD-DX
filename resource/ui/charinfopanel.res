@@ -126,7 +126,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/footerbg"
-		"tileImage"		"1"
+		"scaleImage"		"1"
 	}				
 	
 	"HeaderBG"
@@ -141,7 +141,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/headerbg"
-		"tileImage"		"1"
+		"scaleImage"		"1"
 	}				
 	
 	"FooterLine"
@@ -215,7 +215,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton"
-		"xpos"			"c-413"
+		"xpos"			"8"
 		"ypos"			"452"
 		"zpos"			"2"
 		"wide"			"100"

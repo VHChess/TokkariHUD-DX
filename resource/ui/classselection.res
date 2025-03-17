@@ -34,7 +34,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"random"
-		"xpos"			"c345"
+		"xpos"			"r69"
 		"xpos_minmode"	"58"
 		"ypos"			"395"
 		"ypos_lodef"				"9"
@@ -122,7 +122,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"scout"
-		"xpos"			"c265"
+		"xpos"			"r182"
 		"xpos_minmode"	"58"
 		"ypos"			"70"
 		"ypos_lodef"				"9"
@@ -186,9 +186,9 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"HealthContainerImage"
-		"xpos"			"c265"
+		"xpos"			"r182"
 		"xpos_minmode"	"58"
-		"ypos"			"40"
+		"ypos"			"38"
 		"zpos"			"3"
 		"wide"			"50"
 		"tall"			"100"
@@ -202,7 +202,38 @@
 		"scaleImage"	"1"	
 	}	
 	
+	"scoutcomic"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"scoutcomic"
+		"xpos"			"r205"
+		"xpos_minmode"	"58"
+		"ypos"			"50"
+		"zpos"			"2"
+		"wide"			"100"
+		"tall"			"109"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/classcontainer"
+		"scaleImage"	"1"	
+	}	
 	
+	
+	"soldiercomic"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"soldiercomic"
+		"xpos"			"r94"
+		"xpos_minmode"	"58"
+		"ypos"			"50"
+		"zpos"			"2"
+		"wide"			"100"
+		"tall"			"109"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/classcontainer"
+		"scaleImage"	"1"	
+	}	
 	
 	"comicoverlay"
 	{
@@ -224,7 +255,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"soldier"
-		"xpos"			"c340"
+		"xpos"			"r69"
 		"xpos_minmode"	"58"
 		"ypos"			"70"
 		"ypos_lodef"				"9"
@@ -288,7 +319,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"soldiertf2c"
-		"xpos"			"c340"
+		"xpos"			"r69"
 		"xpos_minmode"	"58"
 		"ypos"			"40"
 		"zpos"			"3"
@@ -309,7 +340,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"pyro"
-		"xpos"			"c265"
+		"xpos"			"r176"
 		"xpos_minmode"	"58"
 		"ypos"			"150"
 		"ypos_lodef"				"9"
@@ -368,11 +399,43 @@
 		}				
 	}
 	
+	"pyrocomic"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"pyrocomic"
+		"xpos"			"r205"
+		"xpos_minmode"	"58"
+		"ypos"			"132"
+		"zpos"			"2"
+		"wide"			"100"
+		"tall"			"109"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/classcontainer"
+		"scaleImage"	"1"	
+	}	
+	
+	"democomic"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"democomic"
+		"xpos"			"r94"
+		"xpos_minmode"	"58"
+		"ypos"			"132"
+		"zpos"			"2"
+		"wide"			"100"
+		"tall"			"109"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/classcontainer"
+		"scaleImage"	"1"	
+	}	
+	
 	"pyrotf2c"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"pyrotf2c"
-		"xpos"			"c265"
+		"xpos"			"r176"
 		"xpos_minmode"	"58"
 		"ypos"			"120"
 		"zpos"			"3"
@@ -418,7 +481,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"demoman"
-		"xpos"			"c340"
+		"xpos"			"r69"
 		"xpos_minmode"	"58"
 		"ypos"			"150"
 		"ypos_lodef"				"9"
@@ -481,7 +544,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"demotf2c"
-		"xpos"			"c340"
+		"xpos"			"r69"
 		"xpos_minmode"	"58"
 		"ypos"			"122"
 		"zpos"			"3"
@@ -501,7 +564,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"heavyweapons"
-		"xpos"			"c262"
+		"xpos"			"r182"
 		"xpos_minmode"	"58"
 		"ypos"			"235"
 		"ypos_lodef"				"9"
@@ -560,16 +623,48 @@
 		}				
 	}
 	
+	"heavycomic"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"heavycomic"
+		"xpos"			"r205"
+		"xpos_minmode"	"58"
+		"ypos"			"214"
+		"zpos"			"2"
+		"wide"			"100"
+		"tall"			"109"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/classcontainer"
+		"scaleImage"	"1"	
+	}	
+	
+	"engiecomic"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"engiecomic"
+		"xpos"			"r94"
+		"xpos_minmode"	"58"
+		"ypos"			"214"
+		"zpos"			"2"
+		"wide"			"100"
+		"tall"			"109"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/classcontainer"
+		"scaleImage"	"1"	
+	}	
+	
 	"heavytf2c"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"heavytf2c"
-		"xpos"			"c262"
+		"xpos"			"r182"
 		"xpos_minmode"	"58"
-		"ypos"			"208"
+		"ypos"			"211"
 		"zpos"			"3"
 		"wide"			"50"
-		"tall"			"100"
+		"tall"			"92"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/class_sel_sm_heavy_red"
@@ -584,7 +679,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"engineer"
-		"xpos"			"c345"
+		"xpos"			"r69"
 		"xpos_minmode"	"58"
 		"ypos"			"235"
 		"ypos_lodef"				"9"
@@ -647,7 +742,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"engitf2c"
-		"xpos"			"c345"
+		"xpos"			"r69"
 		"xpos_minmode"	"58"
 		"ypos"			"205"
 		"zpos"			"3"
@@ -693,7 +788,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"medic"
-		"xpos"			"c262"
+		"xpos"			"r182"
 		"xpos_minmode"	"58"
 		"ypos"			"317"
 		"ypos_lodef"				"9"
@@ -752,16 +847,32 @@
 		}				
 	}
 	
+	"mediccomic"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"mediccomic"
+		"xpos"			"r205"
+		"xpos_minmode"	"58"
+		"ypos"			"295"
+		"zpos"			"2"
+		"wide"			"100"
+		"tall"			"109"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/classcontainer"
+		"scaleImage"	"1"	
+	}	
+	
 	"medictf2c"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"medictf2c"
-		"xpos"			"c262"
+		"xpos"			"r182"
 		"xpos_minmode"	"58"
 		"ypos"			"290"
 		"zpos"			"3"
 		"wide"			"50"
-		"tall"			"100"
+		"tall"			"95"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/class_sel_sm_medic_red"
@@ -776,7 +887,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"sniper"
-		"xpos"			"c341"
+		"xpos"			"r69"
 		"xpos_minmode"	"58"
 		"ypos"			"316"
 		"ypos_lodef"				"9"
@@ -835,16 +946,48 @@
 		}				
 	}
 	
+	"randomcomic"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"randomcomic"
+		"xpos"			"r94"
+		"xpos_minmode"	"58"
+		"ypos"			"378"
+		"zpos"			"3"
+		"wide"			"100"
+		"tall"			"109"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/classcontainer"
+		"scaleImage"	"1"	
+	}	
+	
+	"snipercomic"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"snipercomic"
+		"xpos"			"r94"
+		"xpos_minmode"	"58"
+		"ypos"			"295"
+		"zpos"			"2"
+		"wide"			"100"
+		"tall"			"109"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/classcontainer"
+		"scaleImage"	"1"	
+	}	
+	
 	"snipertf2c"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"snipertf2c"
-		"xpos"			"c341"
+		"xpos"			"r69"
 		"xpos_minmode"	"58"
-		"ypos"			"290"
+		"ypos"			"292"
 		"zpos"			"3"
 		"wide"			"50"
-		"tall"			"100"
+		"tall"			"92"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/class_sel_sm_sniper_red"
@@ -859,7 +1002,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"spy"
-		"xpos"			"c262"
+		"xpos"			"r182"
 		"xpos_minmode"	"58"
 		"ypos"			"396"
 		"ypos_lodef"				"9"
@@ -922,12 +1065,12 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"spytf2c"
-		"xpos"			"c262"
+		"xpos"			"r182"
 		"xpos_minmode"	"58"
-		"ypos"			"369"
+		"ypos"			"371"
 		"zpos"			"3"
 		"wide"			"50"
-		"tall"			"100"
+		"tall"			"97"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/class_sel_sm_spy_red"
@@ -935,6 +1078,22 @@
 		"teambg_2_lodef"	"replay/thumbnails/class_sel_sm_spy_red"
 		"teambg_3"		"replay/thumbnails/class_sel_sm_spy_blu"
 		"teambg_3_lodef"	"replay/thumbnails/class_sel_sm_spy_blu"			
+		"scaleImage"	"1"	
+	}	
+
+	"spycomic"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"spycomic"
+		"xpos"			"r205"
+		"xpos_minmode"	"58"
+		"ypos"			"378"
+		"zpos"			"3"
+		"wide"			"100"
+		"tall"			"109"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/classcontainer"
 		"scaleImage"	"1"	
 	}	
 
@@ -962,7 +1121,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"c-412"
+		"xpos"			"7"
 		"ypos"			"r30"
 		"zpos"			"6"
 		"wide"			"100"
@@ -983,7 +1142,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"EditLoadoutButton"
-		"xpos"			"r340"
+		"xpos"			"c-30"
 		"ypos"			"r30"
 		"zpos"			"6"
 		"wide"			"150"
@@ -1065,7 +1224,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CLASSSELECTION"
-		"xpos"			"57"
+		"xpos"			"c-313"
 		"xpos_lodef"			"62"
 		"xpos_hidef"			"72"
 		"ypos"			"r466"
@@ -1089,7 +1248,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SELECTYOURCLASS"
-		"xpos"			"344"
+		"xpos"			"c-50"
 		"xpos_lodef"			"62"
 		"xpos_hidef"			"72"
 		"ypos"			"r410"
@@ -1105,7 +1264,7 @@
 		"enabled"		"1"
 		"labelText"		"SELECT YOUR CLASS"
 		"textAlignment"	"west"
-		"font"			"NewspaperSmall"
+		"font"			"HudFontSmallishBold"
 		"fgcolor"		"Black"
 	}
 	
@@ -1113,7 +1272,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"YourMerc"
-		"xpos"			"87"
+		"xpos"			"80"
 		"xpos_lodef"			"62"
 		"xpos_hidef"			"72"
 		"ypos"			"r79"
@@ -1498,9 +1657,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numScout"
-		"xpos"			"c235"
+		"xpos"			"r196"
 		"xpos_minmode"	"58"
-		"ypos"			"128"
+		"ypos"			"59"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
@@ -1519,9 +1678,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSoldier"
-		"xpos"			"c316"
+		"xpos"			"r80"
 		"xpos_minmode"	"58"
-		"ypos"			"128"
+		"ypos"			"59"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
@@ -1540,9 +1699,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numPyro"
-		"xpos"			"c235"
+		"xpos"			"r196"
 		"xpos_minmode"	"58"
-		"ypos"			"209"
+		"ypos"			"141"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
@@ -1561,9 +1720,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numDemoman"
-		"xpos"			"c316"
+		"xpos"			"r80"
 		"xpos_minmode"	"58"
-		"ypos"			"209"
+		"ypos"			"141"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
@@ -1582,9 +1741,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numHeavy"
-		"xpos"			"c235"
+		"xpos"			"r196"
 		"xpos_minmode"	"58"
-		"ypos"			"291"
+		"ypos"			"223"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
@@ -1603,9 +1762,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numEngineer"
-		"xpos"			"c316"
+		"xpos"			"r80"
 		"xpos_minmode"	"58"
-		"ypos"			"291"
+		"ypos"			"223"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
@@ -1624,9 +1783,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numMedic"
-		"xpos"			"c235"
+		"xpos"			"r196"
 		"xpos_minmode"	"58"
-		"ypos"			"373"
+		"ypos"			"304"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
@@ -1645,9 +1804,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSniper"
-		"xpos"			"c316"
+		"xpos"			"r80"
 		"xpos_minmode"	"58"
-		"ypos"			"373"
+		"ypos"			"304"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
@@ -1666,9 +1825,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSpy"
-		"xpos"			"c235"
+		"xpos"			"r196"
 		"xpos_minmode"	"58"
-		"ypos"			"454"
+		"ypos"			"387"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
@@ -2034,7 +2193,7 @@
 	{
 		"ControlName"	"CTFClassTipsPanel"
 		"fieldName"		"ClassTipsPanel"
-		"xpos"			"c-98"
+		"xpos"			"c-83"
 		"ypos"			"c-149"
 		"zpos"			"7"
 		"wide"			"235"

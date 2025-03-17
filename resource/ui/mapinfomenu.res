@@ -86,7 +86,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapInfoType"
-		"xpos"			"c-226"
+		"xpos"			"c-170"
 		"xpos_lodef"			"c-174"
 		"xpos_hidef"			"c-174"
 		"ypos"			"147"
@@ -100,7 +100,7 @@
 		"enabled"		"1"
 		"labelText"		"%gamemode%"
 		"textAlignment"	"west"
-		"font"			"NewspaperMedium"
+		"font"			"HudFontMediumBold"
 		"fgcolor"		"Black"
 	}	
 	
@@ -109,7 +109,7 @@
 		"ControlName"	"CExRichText"
 		"fieldName"		"MapInfoText"
 		"font"			"HudFontMediumNews"
-		"xpos"			"c-225"
+		"xpos"			"c-170"
 		"xpos_lodef"			"c-174"
 		"xpos_hidef"			"c-174"
 		"ypos"			"180"
@@ -208,7 +208,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"c310"
+		"xpos"			"r110"
 		"ypos"			"r30"
 		"zpos"			"6"
 		"wide"			"100"
@@ -295,7 +295,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NEWSLOGO"
-		"xpos"			"57"
+		"xpos"			"c-313"
 		"xpos_lodef"			"62"
 		"xpos_hidef"			"72"
 		"ypos"			"r466"

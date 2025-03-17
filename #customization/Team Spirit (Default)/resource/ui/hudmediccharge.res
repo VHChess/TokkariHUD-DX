@@ -22,11 +22,11 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"AmmoContainerImage"
-		"xpos"			"1"
+		"xpos"			"0"
 		"xpos_minmode"	"58"
 		"ypos"			"-3"
 		"zpos"			"3"
-		"wide"			"220"
+		"wide"			"222"
 		"tall"			"200"
 		"visible"		"1"
 		"enabled"		"1"

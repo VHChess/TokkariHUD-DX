@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"Button"
 		"fieldName"		"PrevButton"
-		"xpos"		"220"
+		"xpos"		"223"
 		"ypos"		"cs-0.6"
 		"zpos"		"2"
 		"wide"		"20"
@@ -39,7 +39,7 @@
 	{
 		"ControlName"	"Button"
 		"fieldName"		"NextButton"
-		"xpos"		"613"
+		"xpos"		"607"
 		"ypos"		"cs-0.6"
 		"zpos"		"2"
 		"wide"		"20"

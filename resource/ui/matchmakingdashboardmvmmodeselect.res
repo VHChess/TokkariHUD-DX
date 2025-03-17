@@ -8,7 +8,7 @@
 		"xpos"			"r0"
 		"ypos"			"-5"
 		"zpos"			"1002"
-		"wide"			"855"
+		"wide"			"f0"
 		"tall"			"f-5"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
@@ -18,7 +18,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BackButton"
-		"xpos"			"c-413"
+		"xpos"			"7"
 		"ypos"			"452"
 		"zpos"			"160"
 		"wide"			"90"
@@ -67,10 +67,10 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"Background"
-		"xpos"			"c-436"
+		"xpos"			"r600"
 		"ypos"			"52"
 		"zpos"			"0"
-		"wide"			"595"
+		"wide"			"635"
 		"tall"			"400"
 		"visible"		"1"
 		"enabled"		"1"
@@ -113,7 +113,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"FooterVertical"
-		"xpos"			"584"
+		"xpos"			"250"
 		"ypos"			"50"
 		"zpos"			"1000"
 		"wide"			"3"
@@ -140,25 +140,23 @@
 		"scaleImage"	"1"
 	}
 	
-	"MVMDescription"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"MVMDescription"
-			"font"			"HudFontSmall"
-			"labelText"		"Team up with 5 other players in co-op to fight waves of ROBOTS!"
-			"textAlignment"	"center"
-			"xpos"			"-191"
-			"ypos"			"26"
-			"zpos"			"160"
-			"wide"			"f0"
-			"tall"			"30"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"textinsetx"	"0"
-			"fgcolor_override"	"235 227 203 255"
-		}
+	"CasualDesc"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"CasualDesc"
+		"xpos"		"55"
+		"ypos"		"31"
+		"zpos"		"100"
+		"wide"		"f0"
+		"tall"		"20"
+		"proportionaltoparent"	"1"
+		"labeltext"		"Team up with 5 other players in co-op to fight waves of ROBOTS!."
+		"textAlignment"	"west"
+		"font"			"HudFontSmall"
+		"fgcolor_override"	"TanLight"
+		
+		"mouseinputenabled"	"0"
+	}
 	
 	"Title"
 	{
@@ -200,7 +198,7 @@
 	{
 		//"ControlName"	"EditablePanel"
 		"fieldName"		"MannUpGroupBox"
-		"xpos"		"600"
+		"xpos"		"0"
 		"ypos"		"53"
 		"zpos"		"1"
 		"wide"		"250"
@@ -323,7 +321,7 @@
 	{
 		//"ControlName"	"EditablePanel"
 		"fieldName"		"PracticeGroupBox"
-		"xpos"		"600"
+		"xpos"		"0"
 		"ypos"		"275"
 		"zpos"		"100"
 		"wide"		"250"

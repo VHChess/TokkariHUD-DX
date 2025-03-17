@@ -60,7 +60,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"font"			"HudFontSmall"
+			"font"			"FontStorePromotion"
 			"fgcolor"		"Black"
 			"autoResize"	"3"
 			"pinCorner"		"1"

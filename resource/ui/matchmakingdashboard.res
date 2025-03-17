@@ -21,7 +21,7 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"FindAGameButton2"
-			"xpos"			"rs1-548"
+			"xpos"			"71"
 			"ypos"			"90"
 			"zpos"			"-99"
 			"wide"			"235"
@@ -145,7 +145,7 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"ToggleChatButton"
-			"xpos"			"810"
+			"xpos"			"r44"
 			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"40"

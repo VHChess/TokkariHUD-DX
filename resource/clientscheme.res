@@ -1676,10 +1676,10 @@ Scheme
 			"1"
 			{
 				"name"			"BlackoakStd"
-				"tall"			"35" [!$OSX]
-				"tall"			"35" [$OSX]
-				"tall_lodef"	"32"
-				"tall_hidef"	"32"
+				"tall"			"30" [!$OSX]
+				"tall"			"30" [$OSX]
+				"tall_lodef"	"30"
+				"tall_hidef"	"30"
 				"antialias"		"0"
 				"custom"		"1" [$OSX]
 				"weight"		"500"

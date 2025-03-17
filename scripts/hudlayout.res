@@ -16,7 +16,7 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c221"	[$WIN32]
+		"xpos"	"r206"	[$WIN32]
 		"xpos_minmode"	"r403"	[$WIN32]
 		"ypos"	"c96"	[$WIN32]
 		"ypos_minmode"	"r164"	[$WIN32]
@@ -76,7 +76,7 @@
 		"fieldName" "HudMedicCharge"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c221"	[$WIN32]
+		"xpos"	"r206"	[$WIN32]
 		"xpos_minmode"	"r403"	[$WIN32]
 		"ypos"	"c97"	[$WIN32]
 		"ypos_minmode"	"r36"	[$WIN32]
@@ -1032,7 +1032,7 @@
 		"fieldName" 	"HudMenuEngyBuild"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c175"
+		"xpos"			"r250"
 		"ypos"			"c-100"
 		"zpos"			"10"
 		"wide"			"250"
@@ -1045,7 +1045,7 @@
 		"fieldName" 	"HudMenuEngyDestroy"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c175"
+		"xpos"			"r250"
 		"ypos"			"c-100"
 		"zpos"			"10"
 		"wide"			"250"
@@ -1070,7 +1070,7 @@
 		"fieldName" 	"HudMenuSpyDisguise"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c175"
+		"xpos"			"r250"
 		"ypos"			"c-100"
 		"zpos"			"10"
 		"wide"			"250"
@@ -1447,7 +1447,7 @@
 		"fieldName" 	"HudMenuTauntSelection"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c175"
+		"xpos"			"r250"
 		"ypos"			"c-100"
 		"zpos"			"10"
 		"wide"			"250"
