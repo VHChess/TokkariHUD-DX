@@ -72,7 +72,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"FooterVertical"
-		"xpos"			"315"
+		"xpos"			"r322"
 		"ypos"			"52"
 		"zpos"			"1000"
 		"wide"			"3"
@@ -87,10 +87,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CoverRank"
-		"xpos"			"6"
+		"xpos"			"r322"
 		"ypos"			"37"
 		"zpos"			"1"
-		"wide"			"310"
+		"wide"			"330"
 		"tall"			"f0"
 		"visible"		"1"
 		"pinCorner"		"0"
@@ -103,7 +103,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CoverRank2"
-		"xpos"			"6"
+		"xpos"			"r322"
 		"ypos"			"32"
 		"zpos"			"100"
 		"wide"			"300"
@@ -149,7 +149,7 @@
 	{
 		"ControlName"	"CCasualCriteriaPanel"
 		"fieldName"		"criteria"
-		"xpos"			"-11"
+		"xpos"			"r319"
 		"ypos"			"40"
 		"zpos"			"100"
 		"wide"			"330"
@@ -162,7 +162,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"Background"
-		"xpos"			"r620"
+		"xpos"			"r950"
 		"ypos"			"52"
 		"zpos"			"0"
 		"wide"			"635"
@@ -244,7 +244,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MenuBoxBG2"
-		"xpos"			"0"
+		"xpos"			"r313"
 		"ypos"			"103"
 		"zpos"			"2"
 		"wide"			"313"

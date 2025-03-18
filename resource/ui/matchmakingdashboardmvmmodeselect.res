@@ -63,11 +63,12 @@
 		}
 	}	
 
+
 	"Background"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"Background"
-		"xpos"			"r600"
+		"xpos"			"r853"
 		"ypos"			"52"
 		"zpos"			"0"
 		"wide"			"635"
@@ -113,7 +114,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"FooterVertical"
-		"xpos"			"250"
+		"xpos"			"r252"
 		"ypos"			"50"
 		"zpos"			"1000"
 		"wide"			"3"
@@ -198,13 +199,14 @@
 	{
 		//"ControlName"	"EditablePanel"
 		"fieldName"		"MannUpGroupBox"
-		"xpos"		"0"
+		"xpos"		"r250"
 		"ypos"		"53"
 		"zpos"		"1"
 		"wide"		"250"
 		"tall"		"215"
 		"visible"	"1"
 		"enabled"	"1"
+
 
 		"DropShadow"
 		{
@@ -316,12 +318,27 @@
 	}
 
 	
-
+	"CoverRank"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"CoverRank"
+		"xpos"			"r252"
+		"ypos"			"80"
+		"zpos"			"1"
+		"wide"			"300"
+		"tall"			"200"
+		"visible"		"1"
+		"pinCorner"		"0"
+		"autoResize"	"0"
+		"bgcolor_override"	"Black"
+		"PaintBackgroundType"	"2"
+	}
+	
 	"PracticeGroupBox"
 	{
 		//"ControlName"	"EditablePanel"
 		"fieldName"		"PracticeGroupBox"
-		"xpos"		"0"
+		"xpos"		"r250"
 		"ypos"		"275"
 		"zpos"		"100"
 		"wide"		"250"

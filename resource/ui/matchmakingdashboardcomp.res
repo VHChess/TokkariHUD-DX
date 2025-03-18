@@ -171,7 +171,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"FooterVertical"
-		"xpos"			"254"
+		"xpos"			"r256"
 		"ypos"			"52"
 		"zpos"			"1000"
 		"wide"			"3"
@@ -186,7 +186,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CoverRank2"
-		"xpos"			"-3"
+		"xpos"			"r253"
 		"ypos"			"32"
 		"zpos"			"50"
 		"wide"			"260"
@@ -201,7 +201,7 @@
 	"stats"
 	{
 		"fieldName"		"stats"
-		"xpos"			"-6"
+		"xpos"			"r253"
 		"ypos"			"40"
 		"zpos"			"100"
 		"wide"			"330"
@@ -261,7 +261,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"Background"
-		"xpos"			"r600"
+		"xpos"			"r853"
 		"ypos"			"52"
 		"zpos"			"0"
 		"wide"			"635"
@@ -277,7 +277,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MenuBoxBG2"
-		"xpos"			"2"
+		"xpos"			"r246"
 		"ypos"			"103"
 		"zpos"			"51"
 		"wide"			"245"
