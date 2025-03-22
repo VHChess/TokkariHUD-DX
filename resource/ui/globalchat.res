@@ -8,7 +8,7 @@
 		"xpos"					"5"	//dont move
 		"ypos"					"0"	//pinned in mainmenuoverride
 		"zpos"					"1001"
-		"wide"					"144"
+		"wide"					"165"
 		"tall"					"63"
 		"proportionaltoparent"	"1"
 		"keyboardinputenabled"	"1"
@@ -36,7 +36,7 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"5"
 		"zpos"			"1"
-		"wide"			"f0"
+		"wide"			"165"
 		"tall"			"f20"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
@@ -87,7 +87,7 @@
 		"xpos"					"3"
 		"ypos"					"426"
 		"zpos"			"1"
-		"wide"			"144"
+		"wide"			"165"
 		"tall"			"13"
 		"visible"		"1"
 		"proportionaltoparent"	"1"

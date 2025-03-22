@@ -263,7 +263,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PFPBackground"
-		"xpos"			"c-165"
+		"xpos"			"c-138"
 		"ypos"			"425"
 		"zpos"			"99"
 		"wide"			"57"
@@ -279,7 +279,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot0"
-			"xpos"			"c-161"
+			"xpos"			"c-134"
 			"ypos"			"427"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -421,7 +421,7 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
-		"xpos"			"cs-0.5-142"
+		"xpos"			"cs-0.5-110"
 		"ypos"			"cs-0.5--208"
 
 		"zpos"			"-2"
@@ -2403,7 +2403,7 @@
     {
         "ControlName"    "Panel"
         "xpos"                    "8"
-        //"ypos"            "320+328"
+        //"ypos"            "320+500"
         "ypos"            "573"
     }
     
@@ -3390,7 +3390,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"HUDVersionShadow"
 			"font"			"HudFontSmallestBold"
-			"labelText"		"(DX 1.2.1)"
+			"labelText"		"(DX 1.2.2)"
 			"textAlignment"	"west"
 			"xpos"			"r51"
 			"ypos"			"396"
@@ -3409,7 +3409,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
 			"font"			"HudFontSmallestBold"
-			"labelText"		"(DX 1.2.1)"
+			"labelText"		"(DX 1.2.2)"
 			"textAlignment"	"west"
 			"xpos"			"r52"
 			"ypos"			"394"
@@ -3455,7 +3455,7 @@
 		"xpos"			"0"
 		"ypos"			"340"
 		"zpos"			"5"
-		"wide"			"150"
+		"wide"			"176"
 		"tall"			"150"
 		"visible"		"1"
 

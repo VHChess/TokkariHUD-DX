@@ -22,11 +22,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BG"
-		"xpos"			"c-172"
+		"xpos"			"c-174"
 		"ypos"			"90"
 		"zpos"			"0"
 		"tall"			"240"
-		"wide"			"340"
+		"wide"			"348"
 		"visible"		"1"
 		"enabled"		"1"
 		"image" 		"illustrations/bg"
