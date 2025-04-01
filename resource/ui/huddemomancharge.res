@@ -20,4 +20,22 @@
 		"brighttext"	"0"
 		"fgcolor_override"	"TanLight"
 	}					
+	
+	"ChargeLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ChargeLabel"
+		"font"			"FontStoreOriginalPrice"
+		"fgcolor"		"Black"
+		"xpos"			"15"
+		"ypos"			"-2"
+		"zpos"			"3"
+		"wide"			"40"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"labelText"		"CHARGE"
+	}	
+	
 }

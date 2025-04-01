@@ -11,6 +11,7 @@
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
+		"border"		"itempanelborder"
 	}
 
 	"AvatarBGPanel"

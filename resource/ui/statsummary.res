@@ -26,6 +26,24 @@
 		"scaleImage"		"1"
 	}	
 
+	"CTFLogoPanel"
+	{
+		"ControlName"	"CTFLogoPanel"
+		"fieldname"		"CTFLogoPanel"
+		"xpos"			"r200"
+		"ypos"			"1"
+		"zpos"			"5"
+		"wide"			"o1"
+		"tall"			"f0"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+
+		"radius"		"10"
+		"velocity"		"100"
+
+		"fgcolor_override"	"TFOrange"
+	}
+
 	"MapInfo"
 	{
 		"ControlName"	"EditablePanel"
@@ -211,7 +229,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"ChalkboardTextBig"
+		"font"			"ChalkboardTitleMedium"
 		"labelText"		"%maplabel%"
 		"textAlignment"		"center"
 		"xpos"			"c+90"

@@ -38,6 +38,14 @@
         "enabled"                                                   "0"
         "image"                                                     "../hud/health_color"
     }
+	"timepanel"
+    {
+        "ControlName"                                               "ImagePanel"
+        "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
+        "image"                                                   	"../hud/objectives_timepanel_progressbar"
+    }
 
 	 "button_central"
     {

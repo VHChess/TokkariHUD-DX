@@ -233,11 +233,11 @@
 		"ypos"			"0"
 		"zpos"			"-2"
 		"wide"			"493"
-		"tall"			"270"
+		"tall"			"72"
 		"visible"		"1"
 		"enabled"		"1"
 		"image" 		"replay/thumbnails/tokkarilogo"
-		"scaleImage"	"1"
+		"scaleImage"	"0"
 		"mouseinputenabled"	"0"
 	}	
 	
@@ -440,8 +440,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
-		"xpos"			"cs-0.5--96"
-		"ypos"			"cs-0.5--195"
+		"xpos"			"cs-0.5--110"
+		"ypos"			"cs-0.5--214"
 		"zpos"			"-1"
 		"wide"			"15"
 		"tall"			"15"
@@ -3390,7 +3390,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"HUDVersionShadow"
 			"font"			"HudFontSmallestBold"
-			"labelText"		"(DX 1.2.2)"
+			"labelText"		"(DX 1.3.0)"
 			"textAlignment"	"west"
 			"xpos"			"r51"
 			"ypos"			"396"
@@ -3409,7 +3409,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
 			"font"			"HudFontSmallestBold"
-			"labelText"		"(DX 1.2.2)"
+			"labelText"		"(DX 1.3.0)"
 			"textAlignment"	"west"
 			"xpos"			"r52"
 			"ypos"			"394"
@@ -3438,8 +3438,8 @@
 			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"textinsetx"	"0"
 			"fgcolor_override"	"235 227 203 255"
 		}
@@ -4286,7 +4286,7 @@
         "tabPosition"   "0"
         "labelText"     "#GameUI_GameMenu_Disconnect"
         "font"          "HudFontSmallBold"
-		"textAlignment""center"
+		"textAlignment""west"
 		"textinsetx""25"
 		"use_proportional_insets" "1"
 		"dulltext""0"
@@ -4455,6 +4455,7 @@
 		}
 	}
 
+
 	"RequestCoachButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -4616,14 +4617,15 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"textinsetx"	"25"
+		"textinsety"	"1"
 		"use_proportional_insets" "1"
 		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
+		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
 		"command"		""
-		"labeltext"		""
+		"labeltext"		"Start Playing"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"proportionaltoparent"	"1"
@@ -4636,7 +4638,7 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
 			"xpos"			"6"
-			"ypos"			"8"
+			"ypos"			"7"
 			"zpos"			"1"
 			"wide"			"14"
 			"tall"			"14"
@@ -4909,10 +4911,10 @@
 	}
 
 
-	"SettingsButton"
+	"SettingsButtonM"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"SettingsButton"
+		"fieldName"		"SettingsButtonM"
 		"xpos"			"71"
 		"ypos"			"287"
 		"zpos"			"4"
@@ -4962,7 +4964,7 @@
 	"AdvSettingsButton"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"SettingsButton"
+		"fieldName"		"AdvSettingsButton"
 		"xpos"			"71"
 		"ypos"			"313"
 		"zpos"			"4"
@@ -5124,7 +5126,7 @@
         "tabPosition"   "0"
         "labelText"     "#TF_Quit_Title"
         "font"          "HudFontSmallBold"
-"textAlignment""center"
+"textAlignment""west"
 "textinsetx""25"
 "use_proportional_insets" "1"
 "dulltext""0"

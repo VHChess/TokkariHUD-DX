@@ -22,6 +22,7 @@ Scheme
 		"Orange"			"255 155 0 255"
 		"TransparentBlack"		"0 0 0 128"
 		"Black"				"0 0 0 255"
+		"SteamLightGreen"	"157 194 80 255"
 
 		"Blank"				"0 0 0 0"
 	}

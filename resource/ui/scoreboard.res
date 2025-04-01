@@ -1030,7 +1030,7 @@
 				"wrap"			"0"
 				"labelText"		"%playername%"
 				"textAlignment"	"east"
-				"font"			"HudFontSmallest"
+				"font"			"ScoreboardSmall"
 			}
 			"Score"
 			{
@@ -1109,7 +1109,7 @@
 				"wrap"			"0"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
-				"font"			"HudFontSmallest"
+				"font"			"ScoreboardSmall"
 			}
 			"Score"
 			{

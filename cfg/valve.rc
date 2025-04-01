@@ -18,3 +18,7 @@ startupmenu
 // some commands
 cl_hud_minmode 0 // forces minmode off
 
+tf_mm_dashboard_slide_panel_step 0
+tf_dashboard_slide_time 0
+
+

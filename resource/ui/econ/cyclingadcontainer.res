@@ -103,18 +103,20 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"FadeTransition"
-		"xpos"					"cs-0.5"
-		"ypos"					"0"
+		"xpos"					"c-247"
+		"ypos"					"50"
 		"zpos"					"1"
-		"wide"					"f0"
-		"tall"					"f0"
+		"wide"					"347"
+		"tall"					"240"
 		"visible"				"0"
 		"enabled"				"0"
 		"scaleImage"			"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"		"0"
+		"paintbackgroundtype"	"2"
+		"roundedcorners"		"15"
 		
-		"bgcolor_override"		"26 23 22 255"
+		"bgcolor_override"		"235 226 202 255"
 	}
 
 }

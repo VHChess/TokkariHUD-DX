@@ -2,4 +2,6 @@
 {
 	"$basetexture" "vgui/replay/thumbnails/comp_round_timer"
 	"$translucent" 1
+
+
 }

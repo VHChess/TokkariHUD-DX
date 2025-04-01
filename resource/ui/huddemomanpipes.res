@@ -44,24 +44,7 @@
 		"fgcolor_override"				"TanLight"
 	}
 
-	"TanLightMeter"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"TanLightMeter"
-		"xpos"					"25"
-		"ypos"					"23"
-		"ypos_minmode"			"0"
-		"xpos_minmode"			"0"
-		"zpos"					"3"
-		"wide"					"40"
-		"wide_minmode"			"50"
-		"tall"					"6"				
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/modulate"
-		"scaleImage"	"1"	
-		"drawcolor"		""
-	}	
+	
 
 	"ChargeMeter"
 	{	
@@ -83,8 +66,9 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}				
 		
+	}				
+
 	"PipesPresentPanel"
 	{
 		"ControlName"	"EditablePanel"

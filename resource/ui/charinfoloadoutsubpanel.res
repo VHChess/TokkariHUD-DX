@@ -2147,7 +2147,7 @@
 		"ypos"			"0"
 		"zpos"			"2000"
 		"wide"			"f0"
-		"tall"			"f100"
+		"tall"			"f91"
 		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"30 25 25 245"

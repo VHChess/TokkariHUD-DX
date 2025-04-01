@@ -58,7 +58,7 @@
 		"visible"		"1"
 		"pinCorner"		"0"
 		"autoResize"	"0"
-		"bgcolor_override"	"82 44 7 255"
+		"bgcolor_override"	"67 46 33 255"
 		"PaintBackgroundType"	"2"
 	}
 	
@@ -93,7 +93,7 @@
 		"visible"		"1"
 		"pinCorner"		"0"
 		"autoResize"	"0"
-		"bgcolor_override"	"82 44 7 255"
+		"bgcolor_override"	"67 46 33 255"
 		"PaintBackgroundType"	"2"
 	}
 	

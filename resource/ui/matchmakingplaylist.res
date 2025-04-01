@@ -48,7 +48,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"edgefix"
 		"xpos"			"0"
-		"ypos"			"37"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"5"
 		"tall"			"f0"
@@ -205,7 +205,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
-			"sound_armed"		"UI/buttonrollover.wav"
+			"sound_armed"		"UI/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
@@ -273,7 +273,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
-			"sound_armed"		"UI/buttonrollover.wav"
+			"sound_armed"		"UI/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
@@ -341,7 +341,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
-			"sound_armed"		"UI/buttonrollover.wav"
+			"sound_armed"		"UI/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
@@ -409,7 +409,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
-			"sound_armed"		"UI/buttonrollover.wav"
+			"sound_armed"		"UI/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
@@ -477,7 +477,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
-			"sound_armed"		"UI/buttonrollover.wav"
+			"sound_armed"		"UI/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			

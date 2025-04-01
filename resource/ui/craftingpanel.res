@@ -93,7 +93,7 @@
 		
 		"recipebuttons_kv"
 		{
-			"font"			"HudFontSmallestBold"
+			"font"			"ChalkboardText"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"

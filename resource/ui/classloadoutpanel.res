@@ -18,8 +18,8 @@
 		"infocus_bgcolor_override" "46 43 42 255"
 		"outoffocus_bgcolor_override" "46 43 42 255"
 		
-		"item_xpos_offcenter_a"	"-310"
-		"item_xpos_offcenter_b"	"165"
+		"item_xpos_offcenter_a"	"r0"
+		"item_xpos_offcenter_b"	"145"
 		"item_ypos"		"60"
 		"item_ydelta"	"75"
 		"item_mod_wide"	"40"
@@ -115,6 +115,115 @@
 		"fgcolor_override" "200 80 60 255"
 	}
 	
+	"RedButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"RedButton"
+		"xpos"				"c-107"
+		"ypos"				"57"
+		"zpos"				"21"	
+		"wide"				"52"
+		"tall"				"34"
+		"autoResize"		"1"
+		"pinCorner"			"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			""
+		"textAlignment"		"south-west"
+		"scaleImage"		"1"
+		"command"	"sv_cheats 1; r_skin 0"
+		
+		"fgcolor"			"TanDark"
+		"defaultFgColor_override" "TanDark"
+		"armedFgColor_override" "TanDark"
+		"depressedFgColor_override" "TanDark"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_armed"		"UI/buttonrollover.wav"
+		
+		"paintbackground"	"0"
+		"paintbackgroundtype"	"0"
+		"defaultBgColor_Override"	"0 0 0 255"
+		
+		"paintborder"		"0"
+		
+		"image_drawcolor"		"255 255 255 77"
+		"image_armedcolor"		"255 255 255 128"
+		"image_selectedcolor"	"255 255 255 255"
+	
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"7"
+			"wide"			"52"
+			"tall"			"34"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"replay/thumbnails/redbutton"
+			"scaleImage"	"1"
+		}				
+	}
+	"BlueButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"BlueButton"
+		"xpos"				"c-107"
+		"ypos"				"92"
+		"zpos"				"21"	
+		"wide"				"52"
+		"tall"				"34"
+		"autoResize"		"1"
+		"pinCorner"			"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			""
+		"textAlignment"		"south-west"
+		"scaleImage"		"1"
+		"command"	"sv_cheats 1; r_skin 1"
+		
+		"fgcolor"			"TanDark"
+		"defaultFgColor_override" "TanDark"
+		"armedFgColor_override" "TanDark"
+		"depressedFgColor_override" "TanDark"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_armed"		"UI/buttonrollover.wav"
+		
+		"paintbackground"	"0"
+		"paintbackgroundtype"	"0"
+		"defaultBgColor_Override"	"0 0 0 255"
+		
+		"paintborder"		"0"
+		
+		"image_drawcolor"		"255 255 255 77"
+		"image_armedcolor"		"255 255 255 128"
+		"image_selectedcolor"	"255 255 255 255"
+	
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"7"
+			"wide"			"52"
+			"tall"			"34"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"replay/thumbnails/blubutton"
+			"scaleImage"	"1"
+		}				
+	}
+	
 	"MeetYourClass"
 	{
 		"ControlName"	"CExLabel"
@@ -122,7 +231,7 @@
 		"font"			"ChalkboardTextBig"
 		"labelText"		"Meet Your"
 		"textAlignment"	"west"
-		"xpos"			"c-280"
+		"xpos"			"20"
 		"ypos"			"4"
 		"zpos"			"1"
 		"wide"			"240"
@@ -140,7 +249,7 @@
 		"font"			"ChalkboardTextBig"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
-		"xpos"			"c-94"
+		"xpos"			"210"
 		"ypos"			"4"
 		"zpos"			"1"
 		"wide"			"240"
@@ -208,18 +317,18 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"c-135"
+		"xpos"			"0"
 		"ypos"			"20"
 		"zpos"			"-1"		
-		"wide"			"270"
-		"tall"			"340"
+		"wide"			"f0"
+		"tall"			"370"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		
 		"render_texture"	"0"
-		"fov"			"30"
+		"fov"			"65"
 		"allow_rot"		"1"
 				
 		"model"
@@ -227,10 +336,10 @@
 			"force_pos"	"1"
 
 			"angles_x" "0"
-			"angles_y" "170"
+			"angles_y" "219"
 			"angles_z" "0"
 			"origin_x" "190"
-			"origin_y" "0"
+			"origin_y" "60"
 			"origin_z" "-48"
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
@@ -301,20 +410,29 @@
 		"centerwrap"	"1"
 	}
 	
+	"presetpinner"
+    {
+        "ControlName"                "Panel"
+        "xpos"                        "-20"
+        "ypos"                        "0"
+        "wide"                        "0"
+        "tall"                        "0"
+        "proportionaltoparent"        "1"
+    }
+    
 	"loadout_preset_panel"
-	{
-		"ControlName"	"CLoadoutPresetPanel"
-		"FieldName"		"loadout_preset_panel"
-		"zpos"			"20"
-		"wide"			"150"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"paintbackground"	"0"
-	}
+    {
+        "ControlName"                "CLoadoutPresetPanel"
+        "FieldName"                    "loadout_preset_panel"
+        "xpos"                        "0"
+        "zpos"                        "8920"
+        "wide"                        "30"
+        "tall"                        "135"
+        "visible"                    "1"
+        "ignorescheme"                "1"
+        "pin_to_sibling"            "presetpinner"
+        "pin_to_sibling_corner"        "3"
+    }
 	
 	"PresetsExplanation"
 	{
@@ -464,14 +582,15 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PedastoolImage"
-		"xpos"			"c-124"
-		"ypos"			"200"
+		"xpos"			"c-370"
+		"ypos"			"c-10"
 		"zpos"			"-3"
-		"wide"			"800"
-		"tall"			"1200"
+		"wide"			"300"
+		"tall"			"250"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/pedastool"
+		"scaleImage"	"1"
 	}
 
 	"CharacterLoadoutButton"
@@ -479,8 +598,8 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterLoadoutButton"
 		"labelText"		""
-		"xpos"			"c125"
-		"ypos"			"c60"
+		"xpos"			"c-34"
+		"ypos"			"180"
 		"zpos"			"2"
 		"wide"			"25"
 		"tall"			"25"
@@ -517,8 +636,8 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TauntLoadoutButton"
 		"labelText"		""
-		"xpos"			"c125"
-		"ypos"			"c90"
+		"xpos"			"c-34"
+		"ypos"			"210"
 		"zpos"			"2"
 		"wide"			"25"
 		"tall"			"25"

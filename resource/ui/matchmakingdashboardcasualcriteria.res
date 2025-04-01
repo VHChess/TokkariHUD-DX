@@ -32,6 +32,8 @@
 		"mouseinputenabled"	"0"
 	}
 	
+	
+	
 	"CasualDesc"
 	{
 		"ControlName"		"Label"
@@ -227,7 +229,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
-			"sound_armed"		"UI/buttonrollover.wav"
+			"sound_armed"		"UI/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
@@ -244,10 +246,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MenuBoxBG2"
-		"xpos"			"r313"
+		"xpos"			"r310"
 		"ypos"			"103"
 		"zpos"			"2"
-		"wide"			"313"
+		"wide"			"310"
 		"tall"			"347"
 		"visible"		"1"
 		"pinCorner"		"0"
@@ -280,7 +282,8 @@
 		"mouseinputenabled"	"1"
 		"keyboardinputenabled"	"0"
 		"actionsignallevel"	"1"
-
+		
+		"sound_armed"		"UI/item_info_mouseover.wav"
 		"sound_depressed"	"ui/casualqueue.mp3"
 		"sound_released"	"UI/buttonclickrelease.wav"
 

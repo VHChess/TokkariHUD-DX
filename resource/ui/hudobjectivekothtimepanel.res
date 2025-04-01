@@ -7,6 +7,9 @@
 			"zpos"		"5"
 		}
 	}
+	
+
+	
 
 	"BlueTimer"
 	{
@@ -27,7 +30,7 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudFontMedium"
+		"delta_item_font"		"ScoreboardMedium"
 
 		if_match
 		{
@@ -45,23 +48,44 @@
 			"delta_item_font"		"HudFontMediumSmall"
 		}
 		
+		"timepanelbgblu"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"timepanelbgblu"
+			"xpos"			"-5"
+			"xpos_minmode"	"58"
+			"ypos"			"-56"
+			"zpos"			"4"
+			"wide"			"120"
+			"tall"			"140"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/newtimepaneltest"
+			"scaleImage"	"1"
+		
+			if_match
+			{
+				"visible"	"0"
+			}
+		}	
+		
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"HudFontMediumSmall"
-			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMedium"
+			"font"			"ScoreboardMedium"
+			"font_minmode"	"ScoreboardMedium"
+			"font_lodef"	"ScoreboardMedium"
 			"fgcolor"		"TanLight"
-			"xpos"			"23"
+			"xpos"			"32"
 			"xpos_minmode"	"39"
 			"xpos_hidef"	"114"
 			"xpos_lodef"	"114"
-			"ypos"			"11"
+			"ypos"			"-8"
 			"ypos_minmode"	"6"
 			"ypos_hidef"	"15"
 			"ypos_lodef"	"18"
-			"zpos"			"3"
+			"zpos"			"5"
 			"wide"			"45"
 			"wide_minmode"	"30"
 			"wide_lodef"	"50"
@@ -109,7 +133,7 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudFontMedium"
+		"delta_item_font"		"ScoreboardMedium"
 
 		if_match
 		{
@@ -124,26 +148,47 @@
 			"PositiveColor"			"0 255 0 255"
 			"NegativeColor"			"255 0 0 255"
 			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
+			"delta_item_font"		"ScoreboardMedium"
 		}
+		
+		"timepanelbgred"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"timepanelbgred"
+			"xpos"			"-5"
+			"xpos_minmode"	"58"
+			"ypos"			"-56"
+			"zpos"			"4"
+			"wide"			"120"
+			"tall"			"140"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/newtimepanelred"
+			"scaleImage"	"1"
+		
+			if_match
+			{
+				"visible"	"0"
+			}
+		}	
 		
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"HudFontMediumSmall"
-			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMedium"
+			"font"			"ScoreboardMedium"
+			"font_minmode"	"ScoreboardMedium"
+			"font_lodef"	"ScoreboardMedium"
 			"fgcolor"		"TanLight"
-			"xpos"			"23"
+			"xpos"			"32"
 			"xpos_minmode"	"39"
 			"xpos_hidef"	"114"
 			"xpos_lodef"	"114"
-			"ypos"			"11"
+			"ypos"			"-8"
 			"ypos_minmode"	"6"
 			"ypos_hidef"	"15"
 			"ypos_lodef"	"18"
-			"zpos"			"3"
+			"zpos"			"5"
 			"wide"			"45"
 			"wide_minmode"	"30"
 			"wide_lodef"	"50"
@@ -177,7 +222,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"			"ActiveTimerBG"
 		"xpos"				"0"
-		"ypos"				"9"
+		"ypos"				"10"
 		"ypos_minmode"		"-4"
 		"zpos"				"1"
 		"wide"				"78"
@@ -186,7 +231,7 @@
 		"tall_minmode"		"21"
 		"visible"			"0"
 		"enabled"			"1"
-		"image"				"../hud/objectives_timepanel_active_bg"	
+		"image"				"replay/thumbnails/newtimepanelactive"	
 		"scaleImage"		"1"	
 	}
 }

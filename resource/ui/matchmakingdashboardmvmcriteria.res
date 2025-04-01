@@ -54,6 +54,7 @@
 		"keyboardinputenabled"	"0"
 		//"actionsignallevel"	"1"
 
+		"sound_armed"		"UI/item_info_mouseover.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
@@ -107,6 +108,7 @@
 		"keyboardinputenabled"	"0"
 		"actionsignallevel"	"1"
 
+		"sound_armed"		"UI/item_info_mouseover.wav"
 		"sound_depressed"	"ui/mvmqueue.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -160,6 +162,7 @@
 		"keyboardinputenabled"	"0"
 		"actionsignallevel"	"1"
 
+		"sound_armed"		"UI/item_info_mouseover.wav"
 		"sound_depressed"	"ui/mvmqueue.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -196,6 +199,7 @@
 		"keyboardinputenabled"	"0"
 		//"actionsignallevel"	"1"
 
+		"sound_armed"		"UI/item_info_mouseover.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		

@@ -5,15 +5,15 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Shade"
 		"xpos"			"3"
-		"ypos"			"0"
-		"zpos"			"1000"
-		"wide"			"f0"
-		"tall"			"f0"
-		"visible"		"1"
+		"ypos"			"r-6969"
+		"zpos"			"-99"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 
-		"bgcolor_override"	"0 0 0 255"
+		"bgcolor_override"	"0 0 0 0"
 	}
 
 	"TitleGradient"
@@ -49,12 +49,12 @@
 			"rotation"		"1"
 		}
 
-		"ypos"		"0"
-		"wide"		"30"
-		"tall"		"f0"
+		"ypos"		"r-6969"
+		"wide"		"0"
+		"tall"		"0"
 		"zpos"	"1000"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 
 		"proportionaltoparent"	"1"
 		"scaleimage"	"1"
@@ -122,11 +122,13 @@
 		"armedFgColor_override"	"Orange"
 	}
 
+	
+
 	"ReturnButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ReturnButton"
-		"xpos"			"3"
+		"xpos"			"0"
 		"labelText"		"<"
 
 		if_left
@@ -136,10 +138,11 @@
 		}
 
 		"ypos"			"0"
-		"zpos"			"10000"
+		"zpos"			"1003"
 		"wide"			"20"
 		"tall"			"f0"
 		"visible"		"1"
+	
 		"proportionaltoparent"	"1"
 		"command"		"nav_to"
 		"labelText"		"<"

@@ -16,7 +16,71 @@
 		"bgcolor_override"	"0 0 0 200"
 	}
 
-	
+	"PlayNowFake"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"PlayNowFake"
+		"xpos"			"c-214"
+		"ypos"			"340"
+		"zpos"			"9"
+		"wide"			"210"
+		"tall"			"40"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"PLAY NOW!"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"textinsetx"	"50"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		""
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_armed"		"ui/item_info_mouseover.wav"
+		
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"paintbackground"	"0"
+		"defaultFgColor_override" "43 43 42 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "46 43 42 255"
+	}
+
+	"ShowServersFake"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ShowServersFake"
+		"xpos"			"c3"
+		"ypos"			"340"
+		"zpos"			"9"
+		"wide"			"210"
+		"tall"			"40"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"SHOW SERVERS"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"textinsetx"	"50"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		""
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_armed"		"ui/item_info_mouseover.wav"
+		
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"paintbackground"	"0"
+		"defaultFgColor_override" "43 43 42 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "46 43 42 255"
+	}
 
 	"BG"
 	{
@@ -44,6 +108,7 @@
 		"wide"			"1000"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
+		
 
 		"items"
 		{
@@ -172,11 +237,12 @@
 					"Command"		"url https://comfig.app/quickplay/?autostart=3"
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
+					"sound_armed"		"ui/item_info_mouseover.wav"
 			
-					"border_default"	"MainMenuButtonDefault"
+					"border_default"	"Blank"
 					"border_armed"		"MainMenuButtonArmed"
 					"paintbackground"	"0"
-					"defaultFgColor_override" "46 43 42 255"
+					"defaultFgColor_override" "0 0 0 0"
 					"armedFgColor_override" "235 226 202 255"
 					"depressedFgColor_override" "46 43 42 255"
 				}
@@ -213,10 +279,10 @@
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
 			
-					"border_default"	"MainMenuButtonDefault"
+					"border_default"	"Blank"
 					"border_armed"		"MainMenuButtonArmed"
 					"paintbackground"	"0"
-					"defaultFgColor_override" "46 43 42 255"
+					"defaultFgColor_override" "0 0 0 0"
 					"armedFgColor_override" "235 226 202 255"
 					"depressedFgColor_override" "46 43 42 255"
 				}
@@ -279,11 +345,12 @@
 					"Command"		"url https://comfig.app/quickplay/?autostart=3"
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
+					"sound_armed"		"ui/item_info_mouseover.wav"
 			
-					"border_default"	"MainMenuButtonDefault"
+					"border_default"	"Blank"
 					"border_armed"		"MainMenuButtonArmed"
 					"paintbackground"	"0"
-					"defaultFgColor_override" "46 43 42 255"
+					"defaultFgColor_override" "0 0 0 0"
 					"armedFgColor_override" "235 226 202 255"
 					"depressedFgColor_override" "46 43 42 255"
 				}
@@ -392,10 +459,10 @@
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
 			
-					"border_default"	"MainMenuButtonDefault"
+					"border_default"	"Blank"
 					"border_armed"		"MainMenuButtonArmed"
 					"paintbackground"	"0"
-					"defaultFgColor_override" "46 43 42 255"
+					"defaultFgColor_override" "0 0 0 0"
 					"armedFgColor_override" "235 226 202 255"
 					"depressedFgColor_override" "46 43 42 255"
 				}
@@ -458,11 +525,12 @@
 					"Command"		"url https://comfig.app/quickplay/?autostart=3"
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
+					"sound_armed"		"ui/item_info_mouseover.wav"
 			
-					"border_default"	"MainMenuButtonDefault"
+					"border_default"	"Blank"
 					"border_armed"		"MainMenuButtonArmed"
 					"paintbackground"	"0"
-					"defaultFgColor_override" "46 43 42 255"
+					"defaultFgColor_override" "0 0 0 0"
 					"armedFgColor_override" "235 226 202 255"
 					"depressedFgColor_override" "46 43 42 255"
 				}
@@ -571,10 +639,10 @@
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
 			
-					"border_default"	"MainMenuButtonDefault"
+					"border_default"	"Blank"
 					"border_armed"		"MainMenuButtonArmed"
 					"paintbackground"	"0"
-					"defaultFgColor_override" "46 43 42 255"
+					"defaultFgColor_override" "0 0 0 0"
 					"armedFgColor_override" "235 226 202 255"
 					"depressedFgColor_override" "46 43 42 255"
 				}
@@ -637,11 +705,12 @@
 					"Command"		"url https://comfig.app/quickplay/?autostart=3"
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
+					"sound_armed"		"ui/item_info_mouseover.wav"
 			
-					"border_default"	"MainMenuButtonDefault"
+					"border_default"	"Blank"
 					"border_armed"		"MainMenuButtonArmed"
 					"paintbackground"	"0"
-					"defaultFgColor_override" "46 43 42 255"
+					"defaultFgColor_override" "0 0 0 0"
 					"armedFgColor_override" "235 226 202 255"
 					"depressedFgColor_override" "46 43 42 255"
 				}
@@ -750,10 +819,10 @@
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
 			
-					"border_default"	"MainMenuButtonDefault"
+					"border_default"	"Blank"
 					"border_armed"		"MainMenuButtonArmed"
 					"paintbackground"	"0"
-					"defaultFgColor_override" "46 43 42 255"
+					"defaultFgColor_override" "0 0 0 0"
 					"armedFgColor_override" "235 226 202 255"
 					"depressedFgColor_override" "46 43 42 255"
 				}
@@ -816,11 +885,12 @@
 					"Command"		"url https://comfig.app/quickplay/?autostart=3"
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
+					"sound_armed"		"ui/item_info_mouseover.wav"
 			
-					"border_default"	"MainMenuButtonDefault"
+					"border_default"	"Blank"
 					"border_armed"		"MainMenuButtonArmed"
 					"paintbackground"	"0"
-					"defaultFgColor_override" "46 43 42 255"
+					"defaultFgColor_override" "0 0 0 0"
 					"armedFgColor_override" "235 226 202 255"
 					"depressedFgColor_override" "46 43 42 255"
 				}
@@ -929,10 +999,10 @@
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
 			
-					"border_default"	"MainMenuButtonDefault"
+					"border_default"	"Blank"
 					"border_armed"		"MainMenuButtonArmed"
 					"paintbackground"	"0"
-					"defaultFgColor_override" "46 43 42 255"
+					"defaultFgColor_override" "0 0 0 0"
 					"armedFgColor_override" "235 226 202 255"
 					"depressedFgColor_override" "46 43 42 255"
 				}
@@ -995,11 +1065,12 @@
 					"Command"		"url https://comfig.app/quickplay/?autostart=3"
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
+					"sound_armed"		"ui/item_info_mouseover.wav"
 			
-					"border_default"	"MainMenuButtonDefault"
+					"border_default"	"Blank"
 					"border_armed"		"MainMenuButtonArmed"
 					"paintbackground"	"0"
-					"defaultFgColor_override" "46 43 42 255"
+					"defaultFgColor_override" "0 0 0 0"
 					"armedFgColor_override" "235 226 202 255"
 					"depressedFgColor_override" "46 43 42 255"
 				}
@@ -1108,10 +1179,10 @@
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
 			
-					"border_default"	"MainMenuButtonDefault"
+					"border_default"	"Blank"
 					"border_armed"		"MainMenuButtonArmed"
 					"paintbackground"	"0"
-					"defaultFgColor_override" "46 43 42 255"
+					"defaultFgColor_override" "0 0 0 0"
 					"armedFgColor_override" "235 226 202 255"
 					"depressedFgColor_override" "46 43 42 255"
 				}
@@ -1174,11 +1245,12 @@
 					"Command"		"url https://comfig.app/quickplay/?autostart=3"
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
+					"sound_armed"		"ui/item_info_mouseover.wav"
 			
-					"border_default"	"MainMenuButtonDefault"
+					"border_default"	"Blank"
 					"border_armed"		"MainMenuButtonArmed"
 					"paintbackground"	"0"
-					"defaultFgColor_override" "46 43 42 255"
+					"defaultFgColor_override" "0 0 0 0"
 					"armedFgColor_override" "235 226 202 255"
 					"depressedFgColor_override" "46 43 42 255"
 				}
@@ -1287,10 +1359,10 @@
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
 			
-					"border_default"	"MainMenuButtonDefault"
+					"border_default"	"Blank"
 					"border_armed"		"MainMenuButtonArmed"
 					"paintbackground"	"0"
-					"defaultFgColor_override" "46 43 42 255"
+					"defaultFgColor_override" "0 0 0 0"
 					"armedFgColor_override" "235 226 202 255"
 					"depressedFgColor_override" "46 43 42 255"
 				}
@@ -1353,11 +1425,12 @@
 					"Command"		"url https://comfig.app/quickplay/?autostart=3"
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
+					"sound_armed"		"ui/item_info_mouseover.wav"
 			
-					"border_default"	"MainMenuButtonDefault"
+					"border_default"	"Blank"
 					"border_armed"		"MainMenuButtonArmed"
 					"paintbackground"	"0"
-					"defaultFgColor_override" "46 43 42 255"
+					"defaultFgColor_override" "0 0 0 0"
 					"armedFgColor_override" "235 226 202 255"
 					"depressedFgColor_override" "46 43 42 255"
 				}
@@ -1466,10 +1539,10 @@
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
 			
-					"border_default"	"MainMenuButtonDefault"
+					"border_default"	"Blank"
 					"border_armed"		"MainMenuButtonArmed"
 					"paintbackground"	"0"
-					"defaultFgColor_override" "46 43 42 255"
+					"defaultFgColor_override" "0 0 0 0"
 					"armedFgColor_override" "235 226 202 255"
 					"depressedFgColor_override" "46 43 42 255"
 				}

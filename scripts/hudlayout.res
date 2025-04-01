@@ -91,9 +91,9 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r150"	[$WIN32]
+		"xpos"			"c-35"	[$WIN32]
 		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r60"	[$WIN32]
+		"ypos"			"c10"	[$WIN32]
 		"ypos_minmode"	"r40"	[$WIN32]
 		"xpos"			"r112"	[$X360]
 		"ypos"			"r45"	[$X360]
@@ -145,7 +145,7 @@
 
 	"MMDashBoardPopupContainer"
 	{
-		"ypos"                "-100"
+		"ypos"                "0"
 	}
 
 	HudBossHealth
